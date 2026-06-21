@@ -73,14 +73,17 @@ class _QuizScreenState extends State<QuizScreen> {
       padding: const EdgeInsets.only(bottom: 12),
       child: ElevatedButton(
         onPressed: _feedback == null ? () => _answer(option) : null,
-        child: SizedBox(
-          width: double.infinity,
-          child: Text(
-            option,
-            maxLines: 2,
-            overflow: TextOverflow.ellipsis,
-            textAlign: TextAlign.center,
-          ),
+        child: LayoutBuilder(
+          builder: (context, constraints) {
+            return ConstrainedBox(
+              constraints: BoxConstraints(maxWidth: constraints.maxWidth),
+              child: Text(
+                option,
+                textAlign: TextAlign.center,
+                softWrap: true,
+              ),
+            );
+          },
         ),
       ),
     );
@@ -123,14 +126,22 @@ class _QuizScreenState extends State<QuizScreen> {
               ),
             ),
             const SizedBox(height: 16),
-            for (final option in question.options) _optionButton(option),
-            if (_feedback != null)
-              Text(
-                _feedback!,
-                textAlign: TextAlign.center,
-                style:
-                    const TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+            Expanded(
+              child: ListView(
+                children: [
+                  for (final option in question.options) _optionButton(option),
+                  if (_feedback != null)
+                    Text(
+                      _feedback!,
+                      textAlign: TextAlign.center,
+                      style: const TextStyle(
+                        fontSize: 24,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                ],
               ),
+            ),
           ],
         ),
       ),

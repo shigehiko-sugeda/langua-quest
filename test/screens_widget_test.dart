@@ -59,6 +59,8 @@ void main() {
 
     expect(find.text('クイズ'), findsOneWidget);
     expect(find.textContaining('問題 '), findsOneWidget);
+    await tester.tap(find.byType(ElevatedButton).first);
+    await tester.pump();
     expect(tester.takeException(), isNull);
   });
 
@@ -83,6 +85,8 @@ void main() {
 
     expect(find.text('ふくしゅうクイズ'), findsOneWidget);
     expect(find.textContaining('問題 '), findsOneWidget);
+    await tester.tap(find.byType(ElevatedButton).first);
+    await tester.pump();
     expect(tester.takeException(), isNull);
   });
 }
