@@ -1,0 +1,802 @@
+[
+  {
+    "id": "ko_001",
+    "category": "greetings",
+    "japanese": "こんにちは",
+    "target": "안녕",
+    "pronunciation": "안녕",
+    "example": "안녕 좋아요."
+  },
+  {
+    "id": "ko_002",
+    "category": "greetings",
+    "japanese": "さようなら",
+    "target": "잘 가",
+    "pronunciation": "잘 가",
+    "example": "잘 가 좋아요."
+  },
+  {
+    "id": "ko_003",
+    "category": "greetings",
+    "japanese": "ありがとう",
+    "target": "고마워",
+    "pronunciation": "고마워",
+    "example": "고마워 좋아요."
+  },
+  {
+    "id": "ko_004",
+    "category": "greetings",
+    "japanese": "お願い",
+    "target": "부탁해",
+    "pronunciation": "부탁해",
+    "example": "부탁해 좋아요."
+  },
+  {
+    "id": "ko_005",
+    "category": "greetings",
+    "japanese": "はい",
+    "target": "네",
+    "pronunciation": "네",
+    "example": "네 좋아요."
+  },
+  {
+    "id": "ko_006",
+    "category": "greetings",
+    "japanese": "いいえ",
+    "target": "아니요",
+    "pronunciation": "아니요",
+    "example": "아니요 좋아요."
+  },
+  {
+    "id": "ko_007",
+    "category": "greetings",
+    "japanese": "朝",
+    "target": "아침",
+    "pronunciation": "아침",
+    "example": "아침 좋아요."
+  },
+  {
+    "id": "ko_008",
+    "category": "greetings",
+    "japanese": "夜",
+    "target": "밤",
+    "pronunciation": "밤",
+    "example": "밤 좋아요."
+  },
+  {
+    "id": "ko_009",
+    "category": "greetings",
+    "japanese": "友だち",
+    "target": "친구",
+    "pronunciation": "친구",
+    "example": "친구 좋아요."
+  },
+  {
+    "id": "ko_010",
+    "category": "greetings",
+    "japanese": "うれしい",
+    "target": "기뻐",
+    "pronunciation": "기뻐",
+    "example": "기뻐 좋아요."
+  },
+  {
+    "id": "ko_011",
+    "category": "animals",
+    "japanese": "犬",
+    "target": "개",
+    "pronunciation": "개",
+    "example": "개 좋아요."
+  },
+  {
+    "id": "ko_012",
+    "category": "animals",
+    "japanese": "猫",
+    "target": "고양이",
+    "pronunciation": "고양이",
+    "example": "고양이 좋아요."
+  },
+  {
+    "id": "ko_013",
+    "category": "animals",
+    "japanese": "鳥",
+    "target": "새",
+    "pronunciation": "새",
+    "example": "새 좋아요."
+  },
+  {
+    "id": "ko_014",
+    "category": "animals",
+    "japanese": "魚",
+    "target": "물고기",
+    "pronunciation": "물고기",
+    "example": "물고기 좋아요."
+  },
+  {
+    "id": "ko_015",
+    "category": "animals",
+    "japanese": "うさぎ",
+    "target": "토끼",
+    "pronunciation": "토끼",
+    "example": "토끼 좋아요."
+  },
+  {
+    "id": "ko_016",
+    "category": "animals",
+    "japanese": "馬",
+    "target": "말",
+    "pronunciation": "말",
+    "example": "말 좋아요."
+  },
+  {
+    "id": "ko_017",
+    "category": "animals",
+    "japanese": "牛",
+    "target": "소",
+    "pronunciation": "소",
+    "example": "소 좋아요."
+  },
+  {
+    "id": "ko_018",
+    "category": "animals",
+    "japanese": "羊",
+    "target": "양",
+    "pronunciation": "양",
+    "example": "양 좋아요."
+  },
+  {
+    "id": "ko_019",
+    "category": "animals",
+    "japanese": "あひる",
+    "target": "오리",
+    "pronunciation": "오리",
+    "example": "오리 좋아요."
+  },
+  {
+    "id": "ko_020",
+    "category": "animals",
+    "japanese": "くま",
+    "target": "곰",
+    "pronunciation": "곰",
+    "example": "곰 좋아요."
+  },
+  {
+    "id": "ko_021",
+    "category": "food",
+    "japanese": "りんご",
+    "target": "사과",
+    "pronunciation": "사과",
+    "example": "사과 좋아요."
+  },
+  {
+    "id": "ko_022",
+    "category": "food",
+    "japanese": "バナナ",
+    "target": "바나나",
+    "pronunciation": "바나나",
+    "example": "바나나 좋아요."
+  },
+  {
+    "id": "ko_023",
+    "category": "food",
+    "japanese": "ごはん",
+    "target": "밥",
+    "pronunciation": "밥",
+    "example": "밥 좋아요."
+  },
+  {
+    "id": "ko_024",
+    "category": "food",
+    "japanese": "パン",
+    "target": "빵",
+    "pronunciation": "빵",
+    "example": "빵 좋아요."
+  },
+  {
+    "id": "ko_025",
+    "category": "food",
+    "japanese": "牛乳",
+    "target": "우유",
+    "pronunciation": "우유",
+    "example": "우유 좋아요."
+  },
+  {
+    "id": "ko_026",
+    "category": "food",
+    "japanese": "水",
+    "target": "물",
+    "pronunciation": "물",
+    "example": "물 좋아요."
+  },
+  {
+    "id": "ko_027",
+    "category": "food",
+    "japanese": "たまご",
+    "target": "달걀",
+    "pronunciation": "달걀",
+    "example": "달걀 좋아요."
+  },
+  {
+    "id": "ko_028",
+    "category": "food",
+    "japanese": "チーズ",
+    "target": "치즈",
+    "pronunciation": "치즈",
+    "example": "치즈 좋아요."
+  },
+  {
+    "id": "ko_029",
+    "category": "food",
+    "japanese": "にんじん",
+    "target": "당근",
+    "pronunciation": "당근",
+    "example": "당근 좋아요."
+  },
+  {
+    "id": "ko_030",
+    "category": "food",
+    "japanese": "スープ",
+    "target": "수프",
+    "pronunciation": "수프",
+    "example": "수프 좋아요."
+  },
+  {
+    "id": "ko_031",
+    "category": "school",
+    "japanese": "学校",
+    "target": "학교",
+    "pronunciation": "학교",
+    "example": "학교 좋아요."
+  },
+  {
+    "id": "ko_032",
+    "category": "school",
+    "japanese": "先生",
+    "target": "선생님",
+    "pronunciation": "선생님",
+    "example": "선생님 좋아요."
+  },
+  {
+    "id": "ko_033",
+    "category": "school",
+    "japanese": "生徒",
+    "target": "학생",
+    "pronunciation": "학생",
+    "example": "학생 좋아요."
+  },
+  {
+    "id": "ko_034",
+    "category": "school",
+    "japanese": "本",
+    "target": "책",
+    "pronunciation": "책",
+    "example": "책 좋아요."
+  },
+  {
+    "id": "ko_035",
+    "category": "school",
+    "japanese": "えんぴつ",
+    "target": "연필",
+    "pronunciation": "연필",
+    "example": "연필 좋아요."
+  },
+  {
+    "id": "ko_036",
+    "category": "school",
+    "japanese": "つくえ",
+    "target": "책상",
+    "pronunciation": "책상",
+    "example": "책상 좋아요."
+  },
+  {
+    "id": "ko_037",
+    "category": "school",
+    "japanese": "いす",
+    "target": "의자",
+    "pronunciation": "의자",
+    "example": "의자 좋아요."
+  },
+  {
+    "id": "ko_038",
+    "category": "school",
+    "japanese": "かばん",
+    "target": "가방",
+    "pronunciation": "가방",
+    "example": "가방 좋아요."
+  },
+  {
+    "id": "ko_039",
+    "category": "school",
+    "japanese": "ノート",
+    "target": "공책",
+    "pronunciation": "공책",
+    "example": "공책 좋아요."
+  },
+  {
+    "id": "ko_040",
+    "category": "school",
+    "japanese": "図書室",
+    "target": "도서관",
+    "pronunciation": "도서관",
+    "example": "도서관 좋아요."
+  },
+  {
+    "id": "ko_041",
+    "category": "family",
+    "japanese": "お母さん",
+    "target": "엄마",
+    "pronunciation": "엄마",
+    "example": "엄마 좋아요."
+  },
+  {
+    "id": "ko_042",
+    "category": "family",
+    "japanese": "お父さん",
+    "target": "아빠",
+    "pronunciation": "아빠",
+    "example": "아빠 좋아요."
+  },
+  {
+    "id": "ko_043",
+    "category": "family",
+    "japanese": "姉妹",
+    "target": "자매",
+    "pronunciation": "자매",
+    "example": "자매 좋아요."
+  },
+  {
+    "id": "ko_044",
+    "category": "family",
+    "japanese": "兄弟",
+    "target": "형제",
+    "pronunciation": "형제",
+    "example": "형제 좋아요."
+  },
+  {
+    "id": "ko_045",
+    "category": "family",
+    "japanese": "おばあさん",
+    "target": "할머니",
+    "pronunciation": "할머니",
+    "example": "할머니 좋아요."
+  },
+  {
+    "id": "ko_046",
+    "category": "family",
+    "japanese": "おじいさん",
+    "target": "할아버지",
+    "pronunciation": "할아버지",
+    "example": "할아버지 좋아요."
+  },
+  {
+    "id": "ko_047",
+    "category": "family",
+    "japanese": "赤ちゃん",
+    "target": "아기",
+    "pronunciation": "아기",
+    "example": "아기 좋아요."
+  },
+  {
+    "id": "ko_048",
+    "category": "family",
+    "japanese": "家族",
+    "target": "가족",
+    "pronunciation": "가족",
+    "example": "가족 좋아요."
+  },
+  {
+    "id": "ko_049",
+    "category": "family",
+    "japanese": "おば",
+    "target": "이모",
+    "pronunciation": "이모",
+    "example": "이모 좋아요."
+  },
+  {
+    "id": "ko_050",
+    "category": "family",
+    "japanese": "おじ",
+    "target": "삼촌",
+    "pronunciation": "삼촌",
+    "example": "삼촌 좋아요."
+  },
+  {
+    "id": "ko_051",
+    "category": "colors",
+    "japanese": "赤",
+    "target": "빨강",
+    "pronunciation": "빨강",
+    "example": "빨강 좋아요."
+  },
+  {
+    "id": "ko_052",
+    "category": "colors",
+    "japanese": "青",
+    "target": "파랑",
+    "pronunciation": "파랑",
+    "example": "파랑 좋아요."
+  },
+  {
+    "id": "ko_053",
+    "category": "colors",
+    "japanese": "黄色",
+    "target": "노랑",
+    "pronunciation": "노랑",
+    "example": "노랑 좋아요."
+  },
+  {
+    "id": "ko_054",
+    "category": "colors",
+    "japanese": "緑",
+    "target": "초록",
+    "pronunciation": "초록",
+    "example": "초록 좋아요."
+  },
+  {
+    "id": "ko_055",
+    "category": "colors",
+    "japanese": "白",
+    "target": "하양",
+    "pronunciation": "하양",
+    "example": "하양 좋아요."
+  },
+  {
+    "id": "ko_056",
+    "category": "colors",
+    "japanese": "黒",
+    "target": "검정",
+    "pronunciation": "검정",
+    "example": "검정 좋아요."
+  },
+  {
+    "id": "ko_057",
+    "category": "colors",
+    "japanese": "ピンク",
+    "target": "분홍",
+    "pronunciation": "분홍",
+    "example": "분홍 좋아요."
+  },
+  {
+    "id": "ko_058",
+    "category": "colors",
+    "japanese": "オレンジ色",
+    "target": "주황",
+    "pronunciation": "주황",
+    "example": "주황 좋아요."
+  },
+  {
+    "id": "ko_059",
+    "category": "colors",
+    "japanese": "紫",
+    "target": "보라",
+    "pronunciation": "보라",
+    "example": "보라 좋아요."
+  },
+  {
+    "id": "ko_060",
+    "category": "colors",
+    "japanese": "茶色",
+    "target": "갈색",
+    "pronunciation": "갈색",
+    "example": "갈색 좋아요."
+  },
+  {
+    "id": "ko_061",
+    "category": "numbers",
+    "japanese": "一",
+    "target": "하나",
+    "pronunciation": "하나",
+    "example": "하나 좋아요."
+  },
+  {
+    "id": "ko_062",
+    "category": "numbers",
+    "japanese": "二",
+    "target": "둘",
+    "pronunciation": "둘",
+    "example": "둘 좋아요."
+  },
+  {
+    "id": "ko_063",
+    "category": "numbers",
+    "japanese": "三",
+    "target": "셋",
+    "pronunciation": "셋",
+    "example": "셋 좋아요."
+  },
+  {
+    "id": "ko_064",
+    "category": "numbers",
+    "japanese": "四",
+    "target": "넷",
+    "pronunciation": "넷",
+    "example": "넷 좋아요."
+  },
+  {
+    "id": "ko_065",
+    "category": "numbers",
+    "japanese": "五",
+    "target": "다섯",
+    "pronunciation": "다섯",
+    "example": "다섯 좋아요."
+  },
+  {
+    "id": "ko_066",
+    "category": "numbers",
+    "japanese": "六",
+    "target": "여섯",
+    "pronunciation": "여섯",
+    "example": "여섯 좋아요."
+  },
+  {
+    "id": "ko_067",
+    "category": "numbers",
+    "japanese": "七",
+    "target": "일곱",
+    "pronunciation": "일곱",
+    "example": "일곱 좋아요."
+  },
+  {
+    "id": "ko_068",
+    "category": "numbers",
+    "japanese": "八",
+    "target": "여덟",
+    "pronunciation": "여덟",
+    "example": "여덟 좋아요."
+  },
+  {
+    "id": "ko_069",
+    "category": "numbers",
+    "japanese": "九",
+    "target": "아홉",
+    "pronunciation": "아홉",
+    "example": "아홉 좋아요."
+  },
+  {
+    "id": "ko_070",
+    "category": "numbers",
+    "japanese": "十",
+    "target": "열",
+    "pronunciation": "열",
+    "example": "열 좋아요."
+  },
+  {
+    "id": "ko_071",
+    "category": "daily life",
+    "japanese": "家",
+    "target": "집",
+    "pronunciation": "집",
+    "example": "집 좋아요."
+  },
+  {
+    "id": "ko_072",
+    "category": "daily life",
+    "japanese": "部屋",
+    "target": "방",
+    "pronunciation": "방",
+    "example": "방 좋아요."
+  },
+  {
+    "id": "ko_073",
+    "category": "daily life",
+    "japanese": "ドア",
+    "target": "문",
+    "pronunciation": "문",
+    "example": "문 좋아요."
+  },
+  {
+    "id": "ko_074",
+    "category": "daily life",
+    "japanese": "窓",
+    "target": "창문",
+    "pronunciation": "창문",
+    "example": "창문 좋아요."
+  },
+  {
+    "id": "ko_075",
+    "category": "daily life",
+    "japanese": "テーブル",
+    "target": "탁자",
+    "pronunciation": "탁자",
+    "example": "탁자 좋아요."
+  },
+  {
+    "id": "ko_076",
+    "category": "daily life",
+    "japanese": "ベッド",
+    "target": "침대",
+    "pronunciation": "침대",
+    "example": "침대 좋아요."
+  },
+  {
+    "id": "ko_077",
+    "category": "daily life",
+    "japanese": "時計",
+    "target": "시계",
+    "pronunciation": "시계",
+    "example": "시계 좋아요."
+  },
+  {
+    "id": "ko_078",
+    "category": "daily life",
+    "japanese": "くつ",
+    "target": "신발",
+    "pronunciation": "신발",
+    "example": "신발 좋아요."
+  },
+  {
+    "id": "ko_079",
+    "category": "daily life",
+    "japanese": "ぼうし",
+    "target": "모자",
+    "pronunciation": "모자",
+    "example": "모자 좋아요."
+  },
+  {
+    "id": "ko_080",
+    "category": "daily life",
+    "japanese": "かさ",
+    "target": "우산",
+    "pronunciation": "우산",
+    "example": "우산 좋아요."
+  },
+  {
+    "id": "ko_081",
+    "category": "daily life",
+    "japanese": "太陽",
+    "target": "해",
+    "pronunciation": "해",
+    "example": "해 좋아요."
+  },
+  {
+    "id": "ko_082",
+    "category": "daily life",
+    "japanese": "月",
+    "target": "달",
+    "pronunciation": "달",
+    "example": "달 좋아요."
+  },
+  {
+    "id": "ko_083",
+    "category": "daily life",
+    "japanese": "星",
+    "target": "별",
+    "pronunciation": "별",
+    "example": "별 좋아요."
+  },
+  {
+    "id": "ko_084",
+    "category": "daily life",
+    "japanese": "雨",
+    "target": "비",
+    "pronunciation": "비",
+    "example": "비 좋아요."
+  },
+  {
+    "id": "ko_085",
+    "category": "daily life",
+    "japanese": "雪",
+    "target": "눈",
+    "pronunciation": "눈",
+    "example": "눈 좋아요."
+  },
+  {
+    "id": "ko_086",
+    "category": "daily life",
+    "japanese": "花",
+    "target": "꽃",
+    "pronunciation": "꽃",
+    "example": "꽃 좋아요."
+  },
+  {
+    "id": "ko_087",
+    "category": "daily life",
+    "japanese": "木",
+    "target": "나무",
+    "pronunciation": "나무",
+    "example": "나무 좋아요."
+  },
+  {
+    "id": "ko_088",
+    "category": "daily life",
+    "japanese": "公園",
+    "target": "공원",
+    "pronunciation": "공원",
+    "example": "공원 좋아요."
+  },
+  {
+    "id": "ko_089",
+    "category": "daily life",
+    "japanese": "バス",
+    "target": "버스",
+    "pronunciation": "버스",
+    "example": "버스 좋아요."
+  },
+  {
+    "id": "ko_090",
+    "category": "daily life",
+    "japanese": "電車",
+    "target": "기차",
+    "pronunciation": "기차",
+    "example": "기차 좋아요."
+  },
+  {
+    "id": "ko_091",
+    "category": "daily life",
+    "japanese": "歩く",
+    "target": "걷다",
+    "pronunciation": "걷다",
+    "example": "걷다 좋아요."
+  },
+  {
+    "id": "ko_092",
+    "category": "daily life",
+    "japanese": "走る",
+    "target": "달리다",
+    "pronunciation": "달리다",
+    "example": "달리다 좋아요."
+  },
+  {
+    "id": "ko_093",
+    "category": "daily life",
+    "japanese": "ジャンプする",
+    "target": "뛰다",
+    "pronunciation": "뛰다",
+    "example": "뛰다 좋아요."
+  },
+  {
+    "id": "ko_094",
+    "category": "daily life",
+    "japanese": "歌う",
+    "target": "노래하다",
+    "pronunciation": "노래하다",
+    "example": "노래하다 좋아요."
+  },
+  {
+    "id": "ko_095",
+    "category": "daily life",
+    "japanese": "絵をかく",
+    "target": "그리다",
+    "pronunciation": "그리다",
+    "example": "그리다 좋아요."
+  },
+  {
+    "id": "ko_096",
+    "category": "daily life",
+    "japanese": "読む",
+    "target": "읽다",
+    "pronunciation": "읽다",
+    "example": "읽다 좋아요."
+  },
+  {
+    "id": "ko_097",
+    "category": "daily life",
+    "japanese": "書く",
+    "target": "쓰다",
+    "pronunciation": "쓰다",
+    "example": "쓰다 좋아요."
+  },
+  {
+    "id": "ko_098",
+    "category": "daily life",
+    "japanese": "遊ぶ",
+    "target": "놀다",
+    "pronunciation": "놀다",
+    "example": "놀다 좋아요."
+  },
+  {
+    "id": "ko_099",
+    "category": "daily life",
+    "japanese": "笑う",
+    "target": "웃다",
+    "pronunciation": "웃다",
+    "example": "웃다 좋아요."
+  },
+  {
+    "id": "ko_100",
+    "category": "daily life",
+    "japanese": "聞く",
+    "target": "듣다",
+    "pronunciation": "듣다",
+    "example": "듣다 좋아요."
+  }
+]

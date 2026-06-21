@@ -1,0 +1,802 @@
+[
+  {
+    "id": "en_001",
+    "category": "greetings",
+    "japanese": "こんにちは",
+    "target": "hello",
+    "pronunciation": "hello",
+    "example": "I like hello."
+  },
+  {
+    "id": "en_002",
+    "category": "greetings",
+    "japanese": "さようなら",
+    "target": "goodbye",
+    "pronunciation": "goodbye",
+    "example": "I like goodbye."
+  },
+  {
+    "id": "en_003",
+    "category": "greetings",
+    "japanese": "ありがとう",
+    "target": "thank you",
+    "pronunciation": "thank you",
+    "example": "I like thank you."
+  },
+  {
+    "id": "en_004",
+    "category": "greetings",
+    "japanese": "お願いします",
+    "target": "please",
+    "pronunciation": "please",
+    "example": "I like please."
+  },
+  {
+    "id": "en_005",
+    "category": "greetings",
+    "japanese": "はい",
+    "target": "yes",
+    "pronunciation": "yes",
+    "example": "I like yes."
+  },
+  {
+    "id": "en_006",
+    "category": "greetings",
+    "japanese": "いいえ",
+    "target": "no",
+    "pronunciation": "no",
+    "example": "I like no."
+  },
+  {
+    "id": "en_007",
+    "category": "greetings",
+    "japanese": "朝",
+    "target": "morning",
+    "pronunciation": "morning",
+    "example": "I like morning."
+  },
+  {
+    "id": "en_008",
+    "category": "greetings",
+    "japanese": "夜",
+    "target": "night",
+    "pronunciation": "night",
+    "example": "I like night."
+  },
+  {
+    "id": "en_009",
+    "category": "greetings",
+    "japanese": "友だち",
+    "target": "friend",
+    "pronunciation": "friend",
+    "example": "I like friend."
+  },
+  {
+    "id": "en_010",
+    "category": "greetings",
+    "japanese": "うれしい",
+    "target": "happy",
+    "pronunciation": "happy",
+    "example": "I like happy."
+  },
+  {
+    "id": "en_011",
+    "category": "animals",
+    "japanese": "犬",
+    "target": "dog",
+    "pronunciation": "dog",
+    "example": "I like dog."
+  },
+  {
+    "id": "en_012",
+    "category": "animals",
+    "japanese": "猫",
+    "target": "cat",
+    "pronunciation": "cat",
+    "example": "I like cat."
+  },
+  {
+    "id": "en_013",
+    "category": "animals",
+    "japanese": "鳥",
+    "target": "bird",
+    "pronunciation": "bird",
+    "example": "I like bird."
+  },
+  {
+    "id": "en_014",
+    "category": "animals",
+    "japanese": "魚",
+    "target": "fish",
+    "pronunciation": "fish",
+    "example": "I like fish."
+  },
+  {
+    "id": "en_015",
+    "category": "animals",
+    "japanese": "うさぎ",
+    "target": "rabbit",
+    "pronunciation": "rabbit",
+    "example": "I like rabbit."
+  },
+  {
+    "id": "en_016",
+    "category": "animals",
+    "japanese": "馬",
+    "target": "horse",
+    "pronunciation": "horse",
+    "example": "I like horse."
+  },
+  {
+    "id": "en_017",
+    "category": "animals",
+    "japanese": "牛",
+    "target": "cow",
+    "pronunciation": "cow",
+    "example": "I like cow."
+  },
+  {
+    "id": "en_018",
+    "category": "animals",
+    "japanese": "羊",
+    "target": "sheep",
+    "pronunciation": "sheep",
+    "example": "I like sheep."
+  },
+  {
+    "id": "en_019",
+    "category": "animals",
+    "japanese": "あひる",
+    "target": "duck",
+    "pronunciation": "duck",
+    "example": "I like duck."
+  },
+  {
+    "id": "en_020",
+    "category": "animals",
+    "japanese": "くま",
+    "target": "bear",
+    "pronunciation": "bear",
+    "example": "I like bear."
+  },
+  {
+    "id": "en_021",
+    "category": "food",
+    "japanese": "りんご",
+    "target": "apple",
+    "pronunciation": "apple",
+    "example": "I like apple."
+  },
+  {
+    "id": "en_022",
+    "category": "food",
+    "japanese": "バナナ",
+    "target": "banana",
+    "pronunciation": "banana",
+    "example": "I like banana."
+  },
+  {
+    "id": "en_023",
+    "category": "food",
+    "japanese": "ごはん",
+    "target": "rice",
+    "pronunciation": "rice",
+    "example": "I like rice."
+  },
+  {
+    "id": "en_024",
+    "category": "food",
+    "japanese": "パン",
+    "target": "bread",
+    "pronunciation": "bread",
+    "example": "I like bread."
+  },
+  {
+    "id": "en_025",
+    "category": "food",
+    "japanese": "牛乳",
+    "target": "milk",
+    "pronunciation": "milk",
+    "example": "I like milk."
+  },
+  {
+    "id": "en_026",
+    "category": "food",
+    "japanese": "水",
+    "target": "water",
+    "pronunciation": "water",
+    "example": "I like water."
+  },
+  {
+    "id": "en_027",
+    "category": "food",
+    "japanese": "たまご",
+    "target": "egg",
+    "pronunciation": "egg",
+    "example": "I like egg."
+  },
+  {
+    "id": "en_028",
+    "category": "food",
+    "japanese": "チーズ",
+    "target": "cheese",
+    "pronunciation": "cheese",
+    "example": "I like cheese."
+  },
+  {
+    "id": "en_029",
+    "category": "food",
+    "japanese": "にんじん",
+    "target": "carrot",
+    "pronunciation": "carrot",
+    "example": "I like carrot."
+  },
+  {
+    "id": "en_030",
+    "category": "food",
+    "japanese": "スープ",
+    "target": "soup",
+    "pronunciation": "soup",
+    "example": "I like soup."
+  },
+  {
+    "id": "en_031",
+    "category": "school",
+    "japanese": "学校",
+    "target": "school",
+    "pronunciation": "school",
+    "example": "I like school."
+  },
+  {
+    "id": "en_032",
+    "category": "school",
+    "japanese": "先生",
+    "target": "teacher",
+    "pronunciation": "teacher",
+    "example": "I like teacher."
+  },
+  {
+    "id": "en_033",
+    "category": "school",
+    "japanese": "生徒",
+    "target": "student",
+    "pronunciation": "student",
+    "example": "I like student."
+  },
+  {
+    "id": "en_034",
+    "category": "school",
+    "japanese": "本",
+    "target": "book",
+    "pronunciation": "book",
+    "example": "I like book."
+  },
+  {
+    "id": "en_035",
+    "category": "school",
+    "japanese": "えんぴつ",
+    "target": "pencil",
+    "pronunciation": "pencil",
+    "example": "I like pencil."
+  },
+  {
+    "id": "en_036",
+    "category": "school",
+    "japanese": "つくえ",
+    "target": "desk",
+    "pronunciation": "desk",
+    "example": "I like desk."
+  },
+  {
+    "id": "en_037",
+    "category": "school",
+    "japanese": "いす",
+    "target": "chair",
+    "pronunciation": "chair",
+    "example": "I like chair."
+  },
+  {
+    "id": "en_038",
+    "category": "school",
+    "japanese": "かばん",
+    "target": "bag",
+    "pronunciation": "bag",
+    "example": "I like bag."
+  },
+  {
+    "id": "en_039",
+    "category": "school",
+    "japanese": "ノート",
+    "target": "notebook",
+    "pronunciation": "notebook",
+    "example": "I like notebook."
+  },
+  {
+    "id": "en_040",
+    "category": "school",
+    "japanese": "図書室",
+    "target": "library",
+    "pronunciation": "library",
+    "example": "I like library."
+  },
+  {
+    "id": "en_041",
+    "category": "family",
+    "japanese": "お母さん",
+    "target": "mother",
+    "pronunciation": "mother",
+    "example": "I like mother."
+  },
+  {
+    "id": "en_042",
+    "category": "family",
+    "japanese": "お父さん",
+    "target": "father",
+    "pronunciation": "father",
+    "example": "I like father."
+  },
+  {
+    "id": "en_043",
+    "category": "family",
+    "japanese": "姉妹",
+    "target": "sister",
+    "pronunciation": "sister",
+    "example": "I like sister."
+  },
+  {
+    "id": "en_044",
+    "category": "family",
+    "japanese": "兄弟",
+    "target": "brother",
+    "pronunciation": "brother",
+    "example": "I like brother."
+  },
+  {
+    "id": "en_045",
+    "category": "family",
+    "japanese": "おばあさん",
+    "target": "grandmother",
+    "pronunciation": "grandmother",
+    "example": "I like grandmother."
+  },
+  {
+    "id": "en_046",
+    "category": "family",
+    "japanese": "おじいさん",
+    "target": "grandfather",
+    "pronunciation": "grandfather",
+    "example": "I like grandfather."
+  },
+  {
+    "id": "en_047",
+    "category": "family",
+    "japanese": "赤ちゃん",
+    "target": "baby",
+    "pronunciation": "baby",
+    "example": "I like baby."
+  },
+  {
+    "id": "en_048",
+    "category": "family",
+    "japanese": "家族",
+    "target": "family",
+    "pronunciation": "family",
+    "example": "I like family."
+  },
+  {
+    "id": "en_049",
+    "category": "family",
+    "japanese": "おば",
+    "target": "aunt",
+    "pronunciation": "aunt",
+    "example": "I like aunt."
+  },
+  {
+    "id": "en_050",
+    "category": "family",
+    "japanese": "おじ",
+    "target": "uncle",
+    "pronunciation": "uncle",
+    "example": "I like uncle."
+  },
+  {
+    "id": "en_051",
+    "category": "colors",
+    "japanese": "赤",
+    "target": "red",
+    "pronunciation": "red",
+    "example": "I like red."
+  },
+  {
+    "id": "en_052",
+    "category": "colors",
+    "japanese": "青",
+    "target": "blue",
+    "pronunciation": "blue",
+    "example": "I like blue."
+  },
+  {
+    "id": "en_053",
+    "category": "colors",
+    "japanese": "黄色",
+    "target": "yellow",
+    "pronunciation": "yellow",
+    "example": "I like yellow."
+  },
+  {
+    "id": "en_054",
+    "category": "colors",
+    "japanese": "緑",
+    "target": "green",
+    "pronunciation": "green",
+    "example": "I like green."
+  },
+  {
+    "id": "en_055",
+    "category": "colors",
+    "japanese": "白",
+    "target": "white",
+    "pronunciation": "white",
+    "example": "I like white."
+  },
+  {
+    "id": "en_056",
+    "category": "colors",
+    "japanese": "黒",
+    "target": "black",
+    "pronunciation": "black",
+    "example": "I like black."
+  },
+  {
+    "id": "en_057",
+    "category": "colors",
+    "japanese": "ピンク",
+    "target": "pink",
+    "pronunciation": "pink",
+    "example": "I like pink."
+  },
+  {
+    "id": "en_058",
+    "category": "colors",
+    "japanese": "オレンジ色",
+    "target": "orange",
+    "pronunciation": "orange",
+    "example": "I like orange."
+  },
+  {
+    "id": "en_059",
+    "category": "colors",
+    "japanese": "紫",
+    "target": "purple",
+    "pronunciation": "purple",
+    "example": "I like purple."
+  },
+  {
+    "id": "en_060",
+    "category": "colors",
+    "japanese": "茶色",
+    "target": "brown",
+    "pronunciation": "brown",
+    "example": "I like brown."
+  },
+  {
+    "id": "en_061",
+    "category": "numbers",
+    "japanese": "一",
+    "target": "one",
+    "pronunciation": "one",
+    "example": "I like one."
+  },
+  {
+    "id": "en_062",
+    "category": "numbers",
+    "japanese": "二",
+    "target": "two",
+    "pronunciation": "two",
+    "example": "I like two."
+  },
+  {
+    "id": "en_063",
+    "category": "numbers",
+    "japanese": "三",
+    "target": "three",
+    "pronunciation": "three",
+    "example": "I like three."
+  },
+  {
+    "id": "en_064",
+    "category": "numbers",
+    "japanese": "四",
+    "target": "four",
+    "pronunciation": "four",
+    "example": "I like four."
+  },
+  {
+    "id": "en_065",
+    "category": "numbers",
+    "japanese": "五",
+    "target": "five",
+    "pronunciation": "five",
+    "example": "I like five."
+  },
+  {
+    "id": "en_066",
+    "category": "numbers",
+    "japanese": "六",
+    "target": "six",
+    "pronunciation": "six",
+    "example": "I like six."
+  },
+  {
+    "id": "en_067",
+    "category": "numbers",
+    "japanese": "七",
+    "target": "seven",
+    "pronunciation": "seven",
+    "example": "I like seven."
+  },
+  {
+    "id": "en_068",
+    "category": "numbers",
+    "japanese": "八",
+    "target": "eight",
+    "pronunciation": "eight",
+    "example": "I like eight."
+  },
+  {
+    "id": "en_069",
+    "category": "numbers",
+    "japanese": "九",
+    "target": "nine",
+    "pronunciation": "nine",
+    "example": "I like nine."
+  },
+  {
+    "id": "en_070",
+    "category": "numbers",
+    "japanese": "十",
+    "target": "ten",
+    "pronunciation": "ten",
+    "example": "I like ten."
+  },
+  {
+    "id": "en_071",
+    "category": "daily life",
+    "japanese": "家",
+    "target": "home",
+    "pronunciation": "home",
+    "example": "I like home."
+  },
+  {
+    "id": "en_072",
+    "category": "daily life",
+    "japanese": "部屋",
+    "target": "room",
+    "pronunciation": "room",
+    "example": "I like room."
+  },
+  {
+    "id": "en_073",
+    "category": "daily life",
+    "japanese": "ドア",
+    "target": "door",
+    "pronunciation": "door",
+    "example": "I like door."
+  },
+  {
+    "id": "en_074",
+    "category": "daily life",
+    "japanese": "窓",
+    "target": "window",
+    "pronunciation": "window",
+    "example": "I like window."
+  },
+  {
+    "id": "en_075",
+    "category": "daily life",
+    "japanese": "テーブル",
+    "target": "table",
+    "pronunciation": "table",
+    "example": "I like table."
+  },
+  {
+    "id": "en_076",
+    "category": "daily life",
+    "japanese": "ベッド",
+    "target": "bed",
+    "pronunciation": "bed",
+    "example": "I like bed."
+  },
+  {
+    "id": "en_077",
+    "category": "daily life",
+    "japanese": "時計",
+    "target": "clock",
+    "pronunciation": "clock",
+    "example": "I like clock."
+  },
+  {
+    "id": "en_078",
+    "category": "daily life",
+    "japanese": "くつ",
+    "target": "shoe",
+    "pronunciation": "shoe",
+    "example": "I like shoe."
+  },
+  {
+    "id": "en_079",
+    "category": "daily life",
+    "japanese": "ぼうし",
+    "target": "hat",
+    "pronunciation": "hat",
+    "example": "I like hat."
+  },
+  {
+    "id": "en_080",
+    "category": "daily life",
+    "japanese": "かさ",
+    "target": "umbrella",
+    "pronunciation": "umbrella",
+    "example": "I like umbrella."
+  },
+  {
+    "id": "en_081",
+    "category": "daily life",
+    "japanese": "太陽",
+    "target": "sun",
+    "pronunciation": "sun",
+    "example": "I like sun."
+  },
+  {
+    "id": "en_082",
+    "category": "daily life",
+    "japanese": "月",
+    "target": "moon",
+    "pronunciation": "moon",
+    "example": "I like moon."
+  },
+  {
+    "id": "en_083",
+    "category": "daily life",
+    "japanese": "星",
+    "target": "star",
+    "pronunciation": "star",
+    "example": "I like star."
+  },
+  {
+    "id": "en_084",
+    "category": "daily life",
+    "japanese": "雨",
+    "target": "rain",
+    "pronunciation": "rain",
+    "example": "I like rain."
+  },
+  {
+    "id": "en_085",
+    "category": "daily life",
+    "japanese": "雪",
+    "target": "snow",
+    "pronunciation": "snow",
+    "example": "I like snow."
+  },
+  {
+    "id": "en_086",
+    "category": "daily life",
+    "japanese": "花",
+    "target": "flower",
+    "pronunciation": "flower",
+    "example": "I like flower."
+  },
+  {
+    "id": "en_087",
+    "category": "daily life",
+    "japanese": "木",
+    "target": "tree",
+    "pronunciation": "tree",
+    "example": "I like tree."
+  },
+  {
+    "id": "en_088",
+    "category": "daily life",
+    "japanese": "公園",
+    "target": "park",
+    "pronunciation": "park",
+    "example": "I like park."
+  },
+  {
+    "id": "en_089",
+    "category": "daily life",
+    "japanese": "バス",
+    "target": "bus",
+    "pronunciation": "bus",
+    "example": "I like bus."
+  },
+  {
+    "id": "en_090",
+    "category": "daily life",
+    "japanese": "電車",
+    "target": "train",
+    "pronunciation": "train",
+    "example": "I like train."
+  },
+  {
+    "id": "en_091",
+    "category": "daily life",
+    "japanese": "歩く",
+    "target": "walk",
+    "pronunciation": "walk",
+    "example": "I like walk."
+  },
+  {
+    "id": "en_092",
+    "category": "daily life",
+    "japanese": "走る",
+    "target": "run",
+    "pronunciation": "run",
+    "example": "I like run."
+  },
+  {
+    "id": "en_093",
+    "category": "daily life",
+    "japanese": "ジャンプする",
+    "target": "jump",
+    "pronunciation": "jump",
+    "example": "I like jump."
+  },
+  {
+    "id": "en_094",
+    "category": "daily life",
+    "japanese": "歌う",
+    "target": "sing",
+    "pronunciation": "sing",
+    "example": "I like sing."
+  },
+  {
+    "id": "en_095",
+    "category": "daily life",
+    "japanese": "絵をかく",
+    "target": "draw",
+    "pronunciation": "draw",
+    "example": "I like draw."
+  },
+  {
+    "id": "en_096",
+    "category": "daily life",
+    "japanese": "読む",
+    "target": "read",
+    "pronunciation": "read",
+    "example": "I like read."
+  },
+  {
+    "id": "en_097",
+    "category": "daily life",
+    "japanese": "書く",
+    "target": "write",
+    "pronunciation": "write",
+    "example": "I like write."
+  },
+  {
+    "id": "en_098",
+    "category": "daily life",
+    "japanese": "遊ぶ",
+    "target": "play",
+    "pronunciation": "play",
+    "example": "I like play."
+  },
+  {
+    "id": "en_099",
+    "category": "daily life",
+    "japanese": "笑う",
+    "target": "smile",
+    "pronunciation": "smile",
+    "example": "I like smile."
+  },
+  {
+    "id": "en_100",
+    "category": "daily life",
+    "japanese": "聞く",
+    "target": "listen",
+    "pronunciation": "listen",
+    "example": "I like listen."
+  }
+]
