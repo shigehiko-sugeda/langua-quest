@@ -7,7 +7,14 @@ import '../services/progress_store.dart';
 import '../services/quiz_service.dart';
 
 class QuizScreen extends StatefulWidget {
-  const QuizScreen({super.key, required this.languageCode, required this.lessonWords, required this.allWords, required this.progress, required this.isReview});
+  const QuizScreen({
+    super.key,
+    required this.languageCode,
+    required this.lessonWords,
+    required this.allWords,
+    required this.progress,
+    required this.isReview,
+  });
   final String languageCode;
   final List<VocabWord> lessonWords;
   final List<VocabWord> allWords;
@@ -21,7 +28,8 @@ class QuizScreen extends StatefulWidget {
 class _QuizScreenState extends State<QuizScreen> {
   final _logic = const ProgressLogic();
   final _store = ProgressStore();
-  late final List<QuizQuestion> _questions = const QuizService().buildQuestions(widget.lessonWords, widget.allWords);
+  late final List<QuizQuestion> _questions =
+      const QuizService().buildQuestions(widget.lessonWords, widget.allWords);
   late CourseProgress _progress = widget.progress;
   int _index = 0;
   String? _feedback;
@@ -29,9 +37,13 @@ class _QuizScreenState extends State<QuizScreen> {
   Future<void> _answer(String option) async {
     final question = _questions[_index];
     final correct = option == question.correctAnswer;
-    setState(() => _feedback = correct ? 'せいかい！' : 'ざんねん。正解は「${question.correctAnswer}」');
+    setState(
+      () =>
+          _feedback = correct ? 'せいかい！' : 'ざんねん。正解は「${question.correctAnswer}」',
+    );
     if (widget.isReview) {
-      _progress = _logic.recordReviewAnswer(_progress, question.word.id, correct);
+      _progress =
+          _logic.recordReviewAnswer(_progress, question.word.id, correct);
     } else if (!correct) {
       _progress = _logic.recordWrongAnswer(_progress, question.word.id);
     }
@@ -40,7 +52,11 @@ class _QuizScreenState extends State<QuizScreen> {
     if (!mounted) return;
     if (_index == _questions.length - 1) {
       if (!widget.isReview) {
-        _progress = _logic.completeLesson(_progress, widget.lessonWords.map((word) => word.id), DateTime.now());
+        _progress = _logic.completeLesson(
+          _progress,
+          widget.lessonWords.map((word) => word.id),
+          DateTime.now(),
+        );
         await _store.save(widget.languageCode, _progress);
       }
       if (mounted) Navigator.of(context).pop();
@@ -52,6 +68,24 @@ class _QuizScreenState extends State<QuizScreen> {
     }
   }
 
+  Widget _optionButton(String option) {
+    return Padding(
+      padding: const EdgeInsets.only(bottom: 12),
+      child: ElevatedButton(
+        onPressed: _feedback == null ? () => _answer(option) : null,
+        child: SizedBox(
+          width: double.infinity,
+          child: Text(
+            option,
+            maxLines: 2,
+            overflow: TextOverflow.ellipsis,
+            textAlign: TextAlign.center,
+          ),
+        ),
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     final question = _questions[_index];
@@ -59,18 +93,46 @@ class _QuizScreenState extends State<QuizScreen> {
       appBar: AppBar(title: Text(widget.isReview ? 'ふくしゅうクイズ' : 'クイズ')),
       body: Padding(
         padding: const EdgeInsets.all(20),
-        child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
-          LinearProgressIndicator(value: (_index + 1) / _questions.length),
-          const SizedBox(height: 24),
-          Text('問題 ${_index + 1}/${_questions.length}', style: const TextStyle(fontSize: 18)),
-          const SizedBox(height: 12),
-          Text(question.direction == QuizDirection.japaneseToTarget ? 'この意味の単語は？' : 'この単語の意味は？', style: const TextStyle(fontSize: 22, fontWeight: FontWeight.bold)),
-          const SizedBox(height: 12),
-          Card(color: Colors.yellow.shade100, child: Padding(padding: const EdgeInsets.all(24), child: Text(question.prompt, textAlign: TextAlign.center, style: const TextStyle(fontSize: 34, fontWeight: FontWeight.bold)))),
-          const SizedBox(height: 16),
-          for (final option in question.options) Padding(padding: const EdgeInsets.only(bottom: 12), child: ElevatedButton(onPressed: _feedback == null ? () => _answer(option) : null, child: Text(option))),
-          if (_feedback != null) Text(_feedback!, textAlign: TextAlign.center, style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
-        ]),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            LinearProgressIndicator(value: (_index + 1) / _questions.length),
+            const SizedBox(height: 24),
+            Text(
+              '問題 ${_index + 1}/${_questions.length}',
+              style: const TextStyle(fontSize: 18),
+            ),
+            const SizedBox(height: 12),
+            Text(
+              question.direction == QuizDirection.japaneseToTarget
+                  ? 'この意味の単語は？'
+                  : 'この単語の意味は？',
+              style: const TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
+            ),
+            const SizedBox(height: 12),
+            Card(
+              color: Colors.yellow.shade100,
+              child: Padding(
+                padding: const EdgeInsets.all(24),
+                child: Text(
+                  question.prompt,
+                  textAlign: TextAlign.center,
+                  style: const TextStyle(
+                      fontSize: 34, fontWeight: FontWeight.bold),
+                ),
+              ),
+            ),
+            const SizedBox(height: 16),
+            for (final option in question.options) _optionButton(option),
+            if (_feedback != null)
+              Text(
+                _feedback!,
+                textAlign: TextAlign.center,
+                style:
+                    const TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+              ),
+          ],
+        ),
       ),
     );
   }
