@@ -4,7 +4,7 @@
     "category": "basic",
     "japanese": "こんにちは",
     "target": "hello",
-    "pronunciation": "hello",
+    "pronunciation": "ハロー",
     "example": "Hello, my name is Yui."
   },
   {
@@ -12,7 +12,7 @@
     "category": "basic",
     "japanese": "さようなら",
     "target": "goodbye",
-    "pronunciation": "goodbye",
+    "pronunciation": "グッバイ",
     "example": "Goodbye, see you tomorrow."
   },
   {
@@ -20,7 +20,7 @@
     "category": "basic",
     "japanese": "ありがとう",
     "target": "thank you",
-    "pronunciation": "thank you",
+    "pronunciation": "サンキュー",
     "example": "Thank you for helping me."
   },
   {
@@ -28,7 +28,7 @@
     "category": "basic",
     "japanese": "お願いします",
     "target": "please",
-    "pronunciation": "please",
+    "pronunciation": "プリーズ",
     "example": "Please open the door."
   },
   {
@@ -36,7 +36,7 @@
     "category": "basic",
     "japanese": "はい",
     "target": "yes",
-    "pronunciation": "yes",
+    "pronunciation": "イエス",
     "example": "Yes, I can do it."
   },
   {
@@ -44,7 +44,7 @@
     "category": "basic",
     "japanese": "いいえ",
     "target": "no",
-    "pronunciation": "no",
+    "pronunciation": "ノー",
     "example": "No, it is not mine."
   },
   {
@@ -52,7 +52,7 @@
     "category": "basic",
     "japanese": "朝",
     "target": "morning",
-    "pronunciation": "morning",
+    "pronunciation": "モーニング",
     "example": "The morning is bright."
   },
   {
@@ -60,7 +60,7 @@
     "category": "basic",
     "japanese": "夜",
     "target": "night",
-    "pronunciation": "night",
+    "pronunciation": "ナイト",
     "example": "The night is quiet."
   },
   {
@@ -68,7 +68,7 @@
     "category": "basic",
     "japanese": "友だち",
     "target": "friend",
-    "pronunciation": "friend",
+    "pronunciation": "フレンド",
     "example": "My friend is kind."
   },
   {
@@ -76,7 +76,7 @@
     "category": "basic",
     "japanese": "うれしい",
     "target": "happy",
-    "pronunciation": "happy",
+    "pronunciation": "ハッピー",
     "example": "I am happy today."
   },
   {
@@ -84,7 +84,7 @@
     "category": "animals",
     "japanese": "犬",
     "target": "dog",
-    "pronunciation": "dog",
+    "pronunciation": "ドッグ",
     "example": "The dog runs fast."
   },
   {
@@ -92,7 +92,7 @@
     "category": "animals",
     "japanese": "猫",
     "target": "cat",
-    "pronunciation": "cat",
+    "pronunciation": "キャット",
     "example": "The cat sleeps on the chair."
   },
   {
@@ -100,7 +100,7 @@
     "category": "animals",
     "japanese": "鳥",
     "target": "bird",
-    "pronunciation": "bird",
+    "pronunciation": "バード",
     "example": "A bird is in the tree."
   },
   {
@@ -108,7 +108,7 @@
     "category": "animals",
     "japanese": "魚",
     "target": "fish",
-    "pronunciation": "fish",
+    "pronunciation": "フィッシュ",
     "example": "The fish swims in the water."
   },
   {
@@ -116,7 +116,7 @@
     "category": "animals",
     "japanese": "うさぎ",
     "target": "rabbit",
-    "pronunciation": "rabbit",
+    "pronunciation": "ラビット",
     "example": "The rabbit eats a carrot."
   },
   {
@@ -124,7 +124,7 @@
     "category": "animals",
     "japanese": "馬",
     "target": "horse",
-    "pronunciation": "horse",
+    "pronunciation": "ホース",
     "example": "The horse walks in the field."
   },
   {
@@ -132,7 +132,7 @@
     "category": "animals",
     "japanese": "牛",
     "target": "cow",
-    "pronunciation": "cow",
+    "pronunciation": "カウ",
     "example": "The cow gives us milk."
   },
   {
@@ -140,7 +140,7 @@
     "category": "animals",
     "japanese": "羊",
     "target": "sheep",
-    "pronunciation": "sheep",
+    "pronunciation": "シープ",
     "example": "The sheep is white."
   },
   {
@@ -148,7 +148,7 @@
     "category": "animals",
     "japanese": "あひる",
     "target": "duck",
-    "pronunciation": "duck",
+    "pronunciation": "ダック",
     "example": "The duck is on the pond."
   },
   {
@@ -156,7 +156,7 @@
     "category": "animals",
     "japanese": "くま",
     "target": "bear",
-    "pronunciation": "bear",
+    "pronunciation": "ベア",
     "example": "The bear is big."
   },
   {
@@ -164,7 +164,7 @@
     "category": "food",
     "japanese": "りんご",
     "target": "apple",
-    "pronunciation": "apple",
+    "pronunciation": "アップル",
     "example": "This apple is sweet."
   },
   {
@@ -172,7 +172,7 @@
     "category": "food",
     "japanese": "バナナ",
     "target": "banana",
-    "pronunciation": "banana",
+    "pronunciation": "バナナ",
     "example": "I eat a banana for breakfast."
   },
   {
@@ -180,7 +180,7 @@
     "category": "food",
     "japanese": "ごはん",
     "target": "rice",
-    "pronunciation": "rice",
+    "pronunciation": "ライス",
     "example": "Rice is in the bowl."
   },
   {
@@ -188,7 +188,7 @@
     "category": "food",
     "japanese": "パン",
     "target": "bread",
-    "pronunciation": "bread",
+    "pronunciation": "ブレッド",
     "example": "The bread is warm."
   },
   {
@@ -196,7 +196,7 @@
     "category": "food",
     "japanese": "牛乳",
     "target": "milk",
-    "pronunciation": "milk",
+    "pronunciation": "ミルク",
     "example": "I drink milk every morning."
   },
   {
@@ -204,7 +204,7 @@
     "category": "food",
     "japanese": "水",
     "target": "water",
-    "pronunciation": "water",
+    "pronunciation": "ウォーター",
     "example": "Please give me water."
   },
   {
@@ -212,7 +212,7 @@
     "category": "food",
     "japanese": "たまご",
     "target": "egg",
-    "pronunciation": "egg",
+    "pronunciation": "エッグ",
     "example": "There is an egg in the box."
   },
   {
@@ -220,7 +220,7 @@
     "category": "food",
     "japanese": "チーズ",
     "target": "cheese",
-    "pronunciation": "cheese",
+    "pronunciation": "チーズ",
     "example": "Cheese is on the pizza."
   },
   {
@@ -228,7 +228,7 @@
     "category": "food",
     "japanese": "にんじん",
     "target": "carrot",
-    "pronunciation": "carrot",
+    "pronunciation": "キャロット",
     "example": "The carrot is orange."
   },
   {
@@ -236,7 +236,7 @@
     "category": "food",
     "japanese": "スープ",
     "target": "soup",
-    "pronunciation": "soup",
+    "pronunciation": "スープ",
     "example": "The soup is hot."
   },
   {
@@ -244,7 +244,7 @@
     "category": "school",
     "japanese": "学校",
     "target": "school",
-    "pronunciation": "school",
+    "pronunciation": "スクール",
     "example": "I go to school by bus."
   },
   {
@@ -252,7 +252,7 @@
     "category": "school",
     "japanese": "先生",
     "target": "teacher",
-    "pronunciation": "teacher",
+    "pronunciation": "ティーチャー",
     "example": "The teacher writes on the board."
   },
   {
@@ -260,7 +260,7 @@
     "category": "school",
     "japanese": "生徒",
     "target": "student",
-    "pronunciation": "student",
+    "pronunciation": "スチューデント",
     "example": "The student reads a book."
   },
   {
@@ -268,7 +268,7 @@
     "category": "school",
     "japanese": "本",
     "target": "book",
-    "pronunciation": "book",
+    "pronunciation": "ブック",
     "example": "This book is interesting."
   },
   {
@@ -276,7 +276,7 @@
     "category": "school",
     "japanese": "えんぴつ",
     "target": "pencil",
-    "pronunciation": "pencil",
+    "pronunciation": "ペンシル",
     "example": "I write with a pencil."
   },
   {
@@ -284,7 +284,7 @@
     "category": "school",
     "japanese": "つくえ",
     "target": "desk",
-    "pronunciation": "desk",
+    "pronunciation": "デスク",
     "example": "My desk is clean."
   },
   {
@@ -292,7 +292,7 @@
     "category": "school",
     "japanese": "いす",
     "target": "chair",
-    "pronunciation": "chair",
+    "pronunciation": "チェア",
     "example": "Please sit on this chair."
   },
   {
@@ -300,7 +300,7 @@
     "category": "school",
     "japanese": "かばん",
     "target": "bag",
-    "pronunciation": "bag",
+    "pronunciation": "バッグ",
     "example": "My bag is under the desk."
   },
   {
@@ -308,7 +308,7 @@
     "category": "school",
     "japanese": "ノート",
     "target": "notebook",
-    "pronunciation": "notebook",
+    "pronunciation": "ノートブック",
     "example": "I open my notebook."
   },
   {
@@ -316,7 +316,7 @@
     "category": "school",
     "japanese": "図書室",
     "target": "library",
-    "pronunciation": "library",
+    "pronunciation": "ライブラリー",
     "example": "We read books in the library."
   },
   {
@@ -324,7 +324,7 @@
     "category": "family",
     "japanese": "お母さん",
     "target": "mother",
-    "pronunciation": "mother",
+    "pronunciation": "マザー",
     "example": "My mother cooks dinner."
   },
   {
@@ -332,7 +332,7 @@
     "category": "family",
     "japanese": "お父さん",
     "target": "father",
-    "pronunciation": "father",
+    "pronunciation": "ファーザー",
     "example": "My father drives a car."
   },
   {
@@ -340,7 +340,7 @@
     "category": "family",
     "japanese": "妹",
     "target": "sister",
-    "pronunciation": "sister",
+    "pronunciation": "シスター",
     "example": "My sister likes music."
   },
   {
@@ -348,7 +348,7 @@
     "category": "family",
     "japanese": "弟",
     "target": "brother",
-    "pronunciation": "brother",
+    "pronunciation": "ブラザー",
     "example": "My brother plays soccer."
   },
   {
@@ -356,7 +356,7 @@
     "category": "family",
     "japanese": "おばあさん",
     "target": "grandmother",
-    "pronunciation": "grandmother",
+    "pronunciation": "グランドマザー",
     "example": "My grandmother tells stories."
   },
   {
@@ -364,7 +364,7 @@
     "category": "family",
     "japanese": "おじいさん",
     "target": "grandfather",
-    "pronunciation": "grandfather",
+    "pronunciation": "グランドファーザー",
     "example": "My grandfather takes a walk."
   },
   {
@@ -372,7 +372,7 @@
     "category": "family",
     "japanese": "赤ちゃん",
     "target": "baby",
-    "pronunciation": "baby",
+    "pronunciation": "ベイビー",
     "example": "The baby is sleeping."
   },
   {
@@ -380,7 +380,7 @@
     "category": "family",
     "japanese": "家族",
     "target": "family",
-    "pronunciation": "family",
+    "pronunciation": "ファミリー",
     "example": "My family eats dinner together."
   },
   {
@@ -388,7 +388,7 @@
     "category": "family",
     "japanese": "おば",
     "target": "aunt",
-    "pronunciation": "aunt",
+    "pronunciation": "アント",
     "example": "My aunt lives nearby."
   },
   {
@@ -396,7 +396,7 @@
     "category": "family",
     "japanese": "おじ",
     "target": "uncle",
-    "pronunciation": "uncle",
+    "pronunciation": "アンクル",
     "example": "My uncle plays the guitar."
   },
   {
@@ -404,7 +404,7 @@
     "category": "colors",
     "japanese": "赤",
     "target": "red",
-    "pronunciation": "red",
+    "pronunciation": "レッド",
     "example": "The apple is red."
   },
   {
@@ -412,7 +412,7 @@
     "category": "colors",
     "japanese": "青",
     "target": "blue",
-    "pronunciation": "blue",
+    "pronunciation": "ブルー",
     "example": "The sky is blue."
   },
   {
@@ -420,7 +420,7 @@
     "category": "colors",
     "japanese": "黄色",
     "target": "yellow",
-    "pronunciation": "yellow",
+    "pronunciation": "イエロー",
     "example": "The banana is yellow."
   },
   {
@@ -428,7 +428,7 @@
     "category": "colors",
     "japanese": "緑",
     "target": "green",
-    "pronunciation": "green",
+    "pronunciation": "グリーン",
     "example": "The leaf is green."
   },
   {
@@ -436,7 +436,7 @@
     "category": "colors",
     "japanese": "白",
     "target": "white",
-    "pronunciation": "white",
+    "pronunciation": "ホワイト",
     "example": "The snow is white."
   },
   {
@@ -444,7 +444,7 @@
     "category": "colors",
     "japanese": "黒",
     "target": "black",
-    "pronunciation": "black",
+    "pronunciation": "ブラック",
     "example": "My shoes are black."
   },
   {
@@ -452,7 +452,7 @@
     "category": "colors",
     "japanese": "ピンク",
     "target": "pink",
-    "pronunciation": "pink",
+    "pronunciation": "ピンク",
     "example": "The flower is pink."
   },
   {
@@ -460,7 +460,7 @@
     "category": "colors",
     "japanese": "オレンジ色",
     "target": "orange",
-    "pronunciation": "orange",
+    "pronunciation": "オレンジ",
     "example": "The orange ball is mine."
   },
   {
@@ -468,7 +468,7 @@
     "category": "colors",
     "japanese": "紫",
     "target": "purple",
-    "pronunciation": "purple",
+    "pronunciation": "パープル",
     "example": "The grapes are purple."
   },
   {
@@ -476,7 +476,7 @@
     "category": "colors",
     "japanese": "茶色",
     "target": "brown",
-    "pronunciation": "brown",
+    "pronunciation": "ブラウン",
     "example": "The table is brown."
   },
   {
@@ -484,7 +484,7 @@
     "category": "numbers",
     "japanese": "一",
     "target": "one",
-    "pronunciation": "one",
+    "pronunciation": "ワン",
     "example": "I have one pencil."
   },
   {
@@ -492,7 +492,7 @@
     "category": "numbers",
     "japanese": "二",
     "target": "two",
-    "pronunciation": "two",
+    "pronunciation": "トゥー",
     "example": "There are two cats."
   },
   {
@@ -500,7 +500,7 @@
     "category": "numbers",
     "japanese": "三",
     "target": "three",
-    "pronunciation": "three",
+    "pronunciation": "スリー",
     "example": "I see three stars."
   },
   {
@@ -508,7 +508,7 @@
     "category": "numbers",
     "japanese": "四",
     "target": "four",
-    "pronunciation": "four",
+    "pronunciation": "フォー",
     "example": "Four birds are flying."
   },
   {
@@ -516,7 +516,7 @@
     "category": "numbers",
     "japanese": "五",
     "target": "five",
-    "pronunciation": "five",
+    "pronunciation": "ファイブ",
     "example": "I have five fingers on one hand."
   },
   {
@@ -524,7 +524,7 @@
     "category": "numbers",
     "japanese": "六",
     "target": "six",
-    "pronunciation": "six",
+    "pronunciation": "シックス",
     "example": "Six children are playing."
   },
   {
@@ -532,7 +532,7 @@
     "category": "numbers",
     "japanese": "七",
     "target": "seven",
-    "pronunciation": "seven",
+    "pronunciation": "セブン",
     "example": "There are seven days in a week."
   },
   {
@@ -540,7 +540,7 @@
     "category": "numbers",
     "japanese": "八",
     "target": "eight",
-    "pronunciation": "eight",
+    "pronunciation": "エイト",
     "example": "Eight apples are in the basket."
   },
   {
@@ -548,7 +548,7 @@
     "category": "numbers",
     "japanese": "九",
     "target": "nine",
-    "pronunciation": "nine",
+    "pronunciation": "ナイン",
     "example": "Nine students are in the room."
   },
   {
@@ -556,7 +556,7 @@
     "category": "numbers",
     "japanese": "十",
     "target": "ten",
-    "pronunciation": "ten",
+    "pronunciation": "テン",
     "example": "I can count to ten."
   },
   {
@@ -564,7 +564,7 @@
     "category": "daily life",
     "japanese": "家",
     "target": "home",
-    "pronunciation": "home",
+    "pronunciation": "ホーム",
     "example": "I am going home now."
   },
   {
@@ -572,7 +572,7 @@
     "category": "daily life",
     "japanese": "部屋",
     "target": "room",
-    "pronunciation": "room",
+    "pronunciation": "ルーム",
     "example": "My room is small."
   },
   {
@@ -580,7 +580,7 @@
     "category": "daily life",
     "japanese": "ドア",
     "target": "door",
-    "pronunciation": "door",
+    "pronunciation": "ドア",
     "example": "Please close the door."
   },
   {
@@ -588,7 +588,7 @@
     "category": "daily life",
     "japanese": "窓",
     "target": "window",
-    "pronunciation": "window",
+    "pronunciation": "ウィンドウ",
     "example": "The window is open."
   },
   {
@@ -596,7 +596,7 @@
     "category": "daily life",
     "japanese": "テーブル",
     "target": "table",
-    "pronunciation": "table",
+    "pronunciation": "テーブル",
     "example": "The cup is on the table."
   },
   {
@@ -604,7 +604,7 @@
     "category": "daily life",
     "japanese": "ベッド",
     "target": "bed",
-    "pronunciation": "bed",
+    "pronunciation": "ベッド",
     "example": "I sleep in my bed."
   },
   {
@@ -612,7 +612,7 @@
     "category": "daily life",
     "japanese": "時計",
     "target": "clock",
-    "pronunciation": "clock",
+    "pronunciation": "クロック",
     "example": "The clock says eight o'clock."
   },
   {
@@ -620,7 +620,7 @@
     "category": "daily life",
     "japanese": "くつ",
     "target": "shoe",
-    "pronunciation": "shoe",
+    "pronunciation": "シュー",
     "example": "I put on one shoe."
   },
   {
@@ -628,7 +628,7 @@
     "category": "daily life",
     "japanese": "ぼうし",
     "target": "hat",
-    "pronunciation": "hat",
+    "pronunciation": "ハット",
     "example": "This hat is too big."
   },
   {
@@ -636,7 +636,7 @@
     "category": "daily life",
     "japanese": "かさ",
     "target": "umbrella",
-    "pronunciation": "umbrella",
+    "pronunciation": "アンブレラ",
     "example": "I use an umbrella in the rain."
   },
   {
@@ -644,7 +644,7 @@
     "category": "daily life",
     "japanese": "太陽",
     "target": "sun",
-    "pronunciation": "sun",
+    "pronunciation": "サン",
     "example": "The sun is warm."
   },
   {
@@ -652,7 +652,7 @@
     "category": "daily life",
     "japanese": "月",
     "target": "moon",
-    "pronunciation": "moon",
+    "pronunciation": "ムーン",
     "example": "The moon is bright tonight."
   },
   {
@@ -660,7 +660,7 @@
     "category": "daily life",
     "japanese": "星",
     "target": "star",
-    "pronunciation": "star",
+    "pronunciation": "スター",
     "example": "A star shines in the sky."
   },
   {
@@ -668,7 +668,7 @@
     "category": "daily life",
     "japanese": "雨",
     "target": "rain",
-    "pronunciation": "rain",
+    "pronunciation": "レイン",
     "example": "Rain falls from the sky."
   },
   {
@@ -676,7 +676,7 @@
     "category": "daily life",
     "japanese": "雪",
     "target": "snow",
-    "pronunciation": "snow",
+    "pronunciation": "スノー",
     "example": "Snow covers the ground."
   },
   {
@@ -684,7 +684,7 @@
     "category": "daily life",
     "japanese": "花",
     "target": "flower",
-    "pronunciation": "flower",
+    "pronunciation": "フラワー",
     "example": "The flower smells nice."
   },
   {
@@ -692,7 +692,7 @@
     "category": "daily life",
     "japanese": "木",
     "target": "tree",
-    "pronunciation": "tree",
+    "pronunciation": "ツリー",
     "example": "The tree is tall."
   },
   {
@@ -700,7 +700,7 @@
     "category": "daily life",
     "japanese": "公園",
     "target": "park",
-    "pronunciation": "park",
+    "pronunciation": "パーク",
     "example": "We play in the park."
   },
   {
@@ -708,7 +708,7 @@
     "category": "daily life",
     "japanese": "バス",
     "target": "bus",
-    "pronunciation": "bus",
+    "pronunciation": "バス",
     "example": "The bus stops here."
   },
   {
@@ -716,7 +716,7 @@
     "category": "daily life",
     "japanese": "電車",
     "target": "train",
-    "pronunciation": "train",
+    "pronunciation": "トレイン",
     "example": "The train is coming."
   },
   {
@@ -724,7 +724,7 @@
     "category": "daily life",
     "japanese": "歩く",
     "target": "walk",
-    "pronunciation": "walk",
+    "pronunciation": "ウォーク",
     "example": "I walk to school."
   },
   {
@@ -732,7 +732,7 @@
     "category": "daily life",
     "japanese": "走る",
     "target": "run",
-    "pronunciation": "run",
+    "pronunciation": "ラン",
     "example": "I run in the park."
   },
   {
@@ -740,7 +740,7 @@
     "category": "daily life",
     "japanese": "ジャンプする",
     "target": "jump",
-    "pronunciation": "jump",
+    "pronunciation": "ジャンプ",
     "example": "I jump over the line."
   },
   {
@@ -748,7 +748,7 @@
     "category": "daily life",
     "japanese": "歌う",
     "target": "sing",
-    "pronunciation": "sing",
+    "pronunciation": "シング",
     "example": "We sing a song together."
   },
   {
@@ -756,7 +756,7 @@
     "category": "daily life",
     "japanese": "絵をかく",
     "target": "draw",
-    "pronunciation": "draw",
+    "pronunciation": "ドロー",
     "example": "I draw a picture."
   },
   {
@@ -764,7 +764,7 @@
     "category": "daily life",
     "japanese": "読む",
     "target": "read",
-    "pronunciation": "read",
+    "pronunciation": "リード",
     "example": "I read a story."
   },
   {
@@ -772,7 +772,7 @@
     "category": "daily life",
     "japanese": "書く",
     "target": "write",
-    "pronunciation": "write",
+    "pronunciation": "ライト",
     "example": "I write my name."
   },
   {
@@ -780,7 +780,7 @@
     "category": "daily life",
     "japanese": "遊ぶ",
     "target": "play",
-    "pronunciation": "play",
+    "pronunciation": "プレイ",
     "example": "We play after school."
   },
   {
@@ -788,7 +788,7 @@
     "category": "daily life",
     "japanese": "笑う",
     "target": "smile",
-    "pronunciation": "smile",
+    "pronunciation": "スマイル",
     "example": "I smile at my friend."
   },
   {
@@ -796,7 +796,7 @@
     "category": "daily life",
     "japanese": "聞く",
     "target": "listen",
-    "pronunciation": "listen",
+    "pronunciation": "リッスン",
     "example": "I listen to music."
   }
 ]
