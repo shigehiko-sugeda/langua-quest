@@ -1,83 +1,83 @@
 [
   {
     "id": "en_001",
-    "category": "greetings",
+    "category": "basic",
     "japanese": "こんにちは",
     "target": "hello",
     "pronunciation": "hello",
-    "example": "I like hello."
+    "example": "Hello, my name is Yui."
   },
   {
     "id": "en_002",
-    "category": "greetings",
+    "category": "basic",
     "japanese": "さようなら",
     "target": "goodbye",
     "pronunciation": "goodbye",
-    "example": "I like goodbye."
+    "example": "Goodbye, see you tomorrow."
   },
   {
     "id": "en_003",
-    "category": "greetings",
+    "category": "basic",
     "japanese": "ありがとう",
     "target": "thank you",
     "pronunciation": "thank you",
-    "example": "I like thank you."
+    "example": "Thank you for helping me."
   },
   {
     "id": "en_004",
-    "category": "greetings",
+    "category": "basic",
     "japanese": "お願いします",
     "target": "please",
     "pronunciation": "please",
-    "example": "I like please."
+    "example": "Please open the door."
   },
   {
     "id": "en_005",
-    "category": "greetings",
+    "category": "basic",
     "japanese": "はい",
     "target": "yes",
     "pronunciation": "yes",
-    "example": "I like yes."
+    "example": "Yes, I can do it."
   },
   {
     "id": "en_006",
-    "category": "greetings",
+    "category": "basic",
     "japanese": "いいえ",
     "target": "no",
     "pronunciation": "no",
-    "example": "I like no."
+    "example": "No, it is not mine."
   },
   {
     "id": "en_007",
-    "category": "greetings",
+    "category": "basic",
     "japanese": "朝",
     "target": "morning",
     "pronunciation": "morning",
-    "example": "I like morning."
+    "example": "The morning is bright."
   },
   {
     "id": "en_008",
-    "category": "greetings",
+    "category": "basic",
     "japanese": "夜",
     "target": "night",
     "pronunciation": "night",
-    "example": "I like night."
+    "example": "The night is quiet."
   },
   {
     "id": "en_009",
-    "category": "greetings",
+    "category": "basic",
     "japanese": "友だち",
     "target": "friend",
     "pronunciation": "friend",
-    "example": "I like friend."
+    "example": "My friend is kind."
   },
   {
     "id": "en_010",
-    "category": "greetings",
+    "category": "basic",
     "japanese": "うれしい",
     "target": "happy",
     "pronunciation": "happy",
-    "example": "I like happy."
+    "example": "I am happy today."
   },
   {
     "id": "en_011",
@@ -85,7 +85,7 @@
     "japanese": "犬",
     "target": "dog",
     "pronunciation": "dog",
-    "example": "I like dog."
+    "example": "The dog runs fast."
   },
   {
     "id": "en_012",
@@ -93,7 +93,7 @@
     "japanese": "猫",
     "target": "cat",
     "pronunciation": "cat",
-    "example": "I like cat."
+    "example": "The cat sleeps on the chair."
   },
   {
     "id": "en_013",
@@ -101,7 +101,7 @@
     "japanese": "鳥",
     "target": "bird",
     "pronunciation": "bird",
-    "example": "I like bird."
+    "example": "A bird is in the tree."
   },
   {
     "id": "en_014",
@@ -109,7 +109,7 @@
     "japanese": "魚",
     "target": "fish",
     "pronunciation": "fish",
-    "example": "I like fish."
+    "example": "The fish swims in the water."
   },
   {
     "id": "en_015",
@@ -117,7 +117,7 @@
     "japanese": "うさぎ",
     "target": "rabbit",
     "pronunciation": "rabbit",
-    "example": "I like rabbit."
+    "example": "The rabbit eats a carrot."
   },
   {
     "id": "en_016",
@@ -125,7 +125,7 @@
     "japanese": "馬",
     "target": "horse",
     "pronunciation": "horse",
-    "example": "I like horse."
+    "example": "The horse walks in the field."
   },
   {
     "id": "en_017",
@@ -133,7 +133,7 @@
     "japanese": "牛",
     "target": "cow",
     "pronunciation": "cow",
-    "example": "I like cow."
+    "example": "The cow gives us milk."
   },
   {
     "id": "en_018",
@@ -141,7 +141,7 @@
     "japanese": "羊",
     "target": "sheep",
     "pronunciation": "sheep",
-    "example": "I like sheep."
+    "example": "The sheep is white."
   },
   {
     "id": "en_019",
@@ -149,7 +149,7 @@
     "japanese": "あひる",
     "target": "duck",
     "pronunciation": "duck",
-    "example": "I like duck."
+    "example": "The duck is on the pond."
   },
   {
     "id": "en_020",
@@ -157,7 +157,7 @@
     "japanese": "くま",
     "target": "bear",
     "pronunciation": "bear",
-    "example": "I like bear."
+    "example": "The bear is big."
   },
   {
     "id": "en_021",
@@ -165,7 +165,7 @@
     "japanese": "りんご",
     "target": "apple",
     "pronunciation": "apple",
-    "example": "I like apple."
+    "example": "This apple is sweet."
   },
   {
     "id": "en_022",
@@ -173,7 +173,7 @@
     "japanese": "バナナ",
     "target": "banana",
     "pronunciation": "banana",
-    "example": "I like banana."
+    "example": "I eat a banana for breakfast."
   },
   {
     "id": "en_023",
@@ -181,7 +181,7 @@
     "japanese": "ごはん",
     "target": "rice",
     "pronunciation": "rice",
-    "example": "I like rice."
+    "example": "Rice is in the bowl."
   },
   {
     "id": "en_024",
@@ -189,7 +189,7 @@
     "japanese": "パン",
     "target": "bread",
     "pronunciation": "bread",
-    "example": "I like bread."
+    "example": "The bread is warm."
   },
   {
     "id": "en_025",
@@ -197,7 +197,7 @@
     "japanese": "牛乳",
     "target": "milk",
     "pronunciation": "milk",
-    "example": "I like milk."
+    "example": "I drink milk every morning."
   },
   {
     "id": "en_026",
@@ -205,7 +205,7 @@
     "japanese": "水",
     "target": "water",
     "pronunciation": "water",
-    "example": "I like water."
+    "example": "Please give me water."
   },
   {
     "id": "en_027",
@@ -213,7 +213,7 @@
     "japanese": "たまご",
     "target": "egg",
     "pronunciation": "egg",
-    "example": "I like egg."
+    "example": "There is an egg in the box."
   },
   {
     "id": "en_028",
@@ -221,7 +221,7 @@
     "japanese": "チーズ",
     "target": "cheese",
     "pronunciation": "cheese",
-    "example": "I like cheese."
+    "example": "Cheese is on the pizza."
   },
   {
     "id": "en_029",
@@ -229,7 +229,7 @@
     "japanese": "にんじん",
     "target": "carrot",
     "pronunciation": "carrot",
-    "example": "I like carrot."
+    "example": "The carrot is orange."
   },
   {
     "id": "en_030",
@@ -237,7 +237,7 @@
     "japanese": "スープ",
     "target": "soup",
     "pronunciation": "soup",
-    "example": "I like soup."
+    "example": "The soup is hot."
   },
   {
     "id": "en_031",
@@ -245,7 +245,7 @@
     "japanese": "学校",
     "target": "school",
     "pronunciation": "school",
-    "example": "I like school."
+    "example": "I go to school by bus."
   },
   {
     "id": "en_032",
@@ -253,7 +253,7 @@
     "japanese": "先生",
     "target": "teacher",
     "pronunciation": "teacher",
-    "example": "I like teacher."
+    "example": "The teacher writes on the board."
   },
   {
     "id": "en_033",
@@ -261,7 +261,7 @@
     "japanese": "生徒",
     "target": "student",
     "pronunciation": "student",
-    "example": "I like student."
+    "example": "The student reads a book."
   },
   {
     "id": "en_034",
@@ -269,7 +269,7 @@
     "japanese": "本",
     "target": "book",
     "pronunciation": "book",
-    "example": "I like book."
+    "example": "This book is interesting."
   },
   {
     "id": "en_035",
@@ -277,7 +277,7 @@
     "japanese": "えんぴつ",
     "target": "pencil",
     "pronunciation": "pencil",
-    "example": "I like pencil."
+    "example": "I write with a pencil."
   },
   {
     "id": "en_036",
@@ -285,7 +285,7 @@
     "japanese": "つくえ",
     "target": "desk",
     "pronunciation": "desk",
-    "example": "I like desk."
+    "example": "My desk is clean."
   },
   {
     "id": "en_037",
@@ -293,7 +293,7 @@
     "japanese": "いす",
     "target": "chair",
     "pronunciation": "chair",
-    "example": "I like chair."
+    "example": "Please sit on this chair."
   },
   {
     "id": "en_038",
@@ -301,7 +301,7 @@
     "japanese": "かばん",
     "target": "bag",
     "pronunciation": "bag",
-    "example": "I like bag."
+    "example": "My bag is under the desk."
   },
   {
     "id": "en_039",
@@ -309,7 +309,7 @@
     "japanese": "ノート",
     "target": "notebook",
     "pronunciation": "notebook",
-    "example": "I like notebook."
+    "example": "I open my notebook."
   },
   {
     "id": "en_040",
@@ -317,7 +317,7 @@
     "japanese": "図書室",
     "target": "library",
     "pronunciation": "library",
-    "example": "I like library."
+    "example": "We read books in the library."
   },
   {
     "id": "en_041",
@@ -325,7 +325,7 @@
     "japanese": "お母さん",
     "target": "mother",
     "pronunciation": "mother",
-    "example": "I like mother."
+    "example": "My mother cooks dinner."
   },
   {
     "id": "en_042",
@@ -333,23 +333,23 @@
     "japanese": "お父さん",
     "target": "father",
     "pronunciation": "father",
-    "example": "I like father."
+    "example": "My father drives a car."
   },
   {
     "id": "en_043",
     "category": "family",
-    "japanese": "姉妹",
+    "japanese": "妹",
     "target": "sister",
     "pronunciation": "sister",
-    "example": "I like sister."
+    "example": "My sister likes music."
   },
   {
     "id": "en_044",
     "category": "family",
-    "japanese": "兄弟",
+    "japanese": "弟",
     "target": "brother",
     "pronunciation": "brother",
-    "example": "I like brother."
+    "example": "My brother plays soccer."
   },
   {
     "id": "en_045",
@@ -357,7 +357,7 @@
     "japanese": "おばあさん",
     "target": "grandmother",
     "pronunciation": "grandmother",
-    "example": "I like grandmother."
+    "example": "My grandmother tells stories."
   },
   {
     "id": "en_046",
@@ -365,7 +365,7 @@
     "japanese": "おじいさん",
     "target": "grandfather",
     "pronunciation": "grandfather",
-    "example": "I like grandfather."
+    "example": "My grandfather takes a walk."
   },
   {
     "id": "en_047",
@@ -373,7 +373,7 @@
     "japanese": "赤ちゃん",
     "target": "baby",
     "pronunciation": "baby",
-    "example": "I like baby."
+    "example": "The baby is sleeping."
   },
   {
     "id": "en_048",
@@ -381,7 +381,7 @@
     "japanese": "家族",
     "target": "family",
     "pronunciation": "family",
-    "example": "I like family."
+    "example": "My family eats dinner together."
   },
   {
     "id": "en_049",
@@ -389,7 +389,7 @@
     "japanese": "おば",
     "target": "aunt",
     "pronunciation": "aunt",
-    "example": "I like aunt."
+    "example": "My aunt lives nearby."
   },
   {
     "id": "en_050",
@@ -397,7 +397,7 @@
     "japanese": "おじ",
     "target": "uncle",
     "pronunciation": "uncle",
-    "example": "I like uncle."
+    "example": "My uncle plays the guitar."
   },
   {
     "id": "en_051",
@@ -405,7 +405,7 @@
     "japanese": "赤",
     "target": "red",
     "pronunciation": "red",
-    "example": "I like red."
+    "example": "The apple is red."
   },
   {
     "id": "en_052",
@@ -413,7 +413,7 @@
     "japanese": "青",
     "target": "blue",
     "pronunciation": "blue",
-    "example": "I like blue."
+    "example": "The sky is blue."
   },
   {
     "id": "en_053",
@@ -421,7 +421,7 @@
     "japanese": "黄色",
     "target": "yellow",
     "pronunciation": "yellow",
-    "example": "I like yellow."
+    "example": "The banana is yellow."
   },
   {
     "id": "en_054",
@@ -429,7 +429,7 @@
     "japanese": "緑",
     "target": "green",
     "pronunciation": "green",
-    "example": "I like green."
+    "example": "The leaf is green."
   },
   {
     "id": "en_055",
@@ -437,7 +437,7 @@
     "japanese": "白",
     "target": "white",
     "pronunciation": "white",
-    "example": "I like white."
+    "example": "The snow is white."
   },
   {
     "id": "en_056",
@@ -445,7 +445,7 @@
     "japanese": "黒",
     "target": "black",
     "pronunciation": "black",
-    "example": "I like black."
+    "example": "My shoes are black."
   },
   {
     "id": "en_057",
@@ -453,7 +453,7 @@
     "japanese": "ピンク",
     "target": "pink",
     "pronunciation": "pink",
-    "example": "I like pink."
+    "example": "The flower is pink."
   },
   {
     "id": "en_058",
@@ -461,7 +461,7 @@
     "japanese": "オレンジ色",
     "target": "orange",
     "pronunciation": "orange",
-    "example": "I like orange."
+    "example": "The orange ball is mine."
   },
   {
     "id": "en_059",
@@ -469,7 +469,7 @@
     "japanese": "紫",
     "target": "purple",
     "pronunciation": "purple",
-    "example": "I like purple."
+    "example": "The grapes are purple."
   },
   {
     "id": "en_060",
@@ -477,7 +477,7 @@
     "japanese": "茶色",
     "target": "brown",
     "pronunciation": "brown",
-    "example": "I like brown."
+    "example": "The table is brown."
   },
   {
     "id": "en_061",
@@ -485,7 +485,7 @@
     "japanese": "一",
     "target": "one",
     "pronunciation": "one",
-    "example": "I like one."
+    "example": "I have one pencil."
   },
   {
     "id": "en_062",
@@ -493,7 +493,7 @@
     "japanese": "二",
     "target": "two",
     "pronunciation": "two",
-    "example": "I like two."
+    "example": "There are two cats."
   },
   {
     "id": "en_063",
@@ -501,7 +501,7 @@
     "japanese": "三",
     "target": "three",
     "pronunciation": "three",
-    "example": "I like three."
+    "example": "I see three stars."
   },
   {
     "id": "en_064",
@@ -509,7 +509,7 @@
     "japanese": "四",
     "target": "four",
     "pronunciation": "four",
-    "example": "I like four."
+    "example": "Four birds are flying."
   },
   {
     "id": "en_065",
@@ -517,7 +517,7 @@
     "japanese": "五",
     "target": "five",
     "pronunciation": "five",
-    "example": "I like five."
+    "example": "I have five fingers on one hand."
   },
   {
     "id": "en_066",
@@ -525,7 +525,7 @@
     "japanese": "六",
     "target": "six",
     "pronunciation": "six",
-    "example": "I like six."
+    "example": "Six children are playing."
   },
   {
     "id": "en_067",
@@ -533,7 +533,7 @@
     "japanese": "七",
     "target": "seven",
     "pronunciation": "seven",
-    "example": "I like seven."
+    "example": "There are seven days in a week."
   },
   {
     "id": "en_068",
@@ -541,7 +541,7 @@
     "japanese": "八",
     "target": "eight",
     "pronunciation": "eight",
-    "example": "I like eight."
+    "example": "Eight apples are in the basket."
   },
   {
     "id": "en_069",
@@ -549,7 +549,7 @@
     "japanese": "九",
     "target": "nine",
     "pronunciation": "nine",
-    "example": "I like nine."
+    "example": "Nine students are in the room."
   },
   {
     "id": "en_070",
@@ -557,7 +557,7 @@
     "japanese": "十",
     "target": "ten",
     "pronunciation": "ten",
-    "example": "I like ten."
+    "example": "I can count to ten."
   },
   {
     "id": "en_071",
@@ -565,7 +565,7 @@
     "japanese": "家",
     "target": "home",
     "pronunciation": "home",
-    "example": "I like home."
+    "example": "I am going home now."
   },
   {
     "id": "en_072",
@@ -573,7 +573,7 @@
     "japanese": "部屋",
     "target": "room",
     "pronunciation": "room",
-    "example": "I like room."
+    "example": "My room is small."
   },
   {
     "id": "en_073",
@@ -581,7 +581,7 @@
     "japanese": "ドア",
     "target": "door",
     "pronunciation": "door",
-    "example": "I like door."
+    "example": "Please close the door."
   },
   {
     "id": "en_074",
@@ -589,7 +589,7 @@
     "japanese": "窓",
     "target": "window",
     "pronunciation": "window",
-    "example": "I like window."
+    "example": "The window is open."
   },
   {
     "id": "en_075",
@@ -597,7 +597,7 @@
     "japanese": "テーブル",
     "target": "table",
     "pronunciation": "table",
-    "example": "I like table."
+    "example": "The cup is on the table."
   },
   {
     "id": "en_076",
@@ -605,7 +605,7 @@
     "japanese": "ベッド",
     "target": "bed",
     "pronunciation": "bed",
-    "example": "I like bed."
+    "example": "I sleep in my bed."
   },
   {
     "id": "en_077",
@@ -613,7 +613,7 @@
     "japanese": "時計",
     "target": "clock",
     "pronunciation": "clock",
-    "example": "I like clock."
+    "example": "The clock says eight o'clock."
   },
   {
     "id": "en_078",
@@ -621,7 +621,7 @@
     "japanese": "くつ",
     "target": "shoe",
     "pronunciation": "shoe",
-    "example": "I like shoe."
+    "example": "I put on one shoe."
   },
   {
     "id": "en_079",
@@ -629,7 +629,7 @@
     "japanese": "ぼうし",
     "target": "hat",
     "pronunciation": "hat",
-    "example": "I like hat."
+    "example": "This hat is too big."
   },
   {
     "id": "en_080",
@@ -637,7 +637,7 @@
     "japanese": "かさ",
     "target": "umbrella",
     "pronunciation": "umbrella",
-    "example": "I like umbrella."
+    "example": "I use an umbrella in the rain."
   },
   {
     "id": "en_081",
@@ -645,7 +645,7 @@
     "japanese": "太陽",
     "target": "sun",
     "pronunciation": "sun",
-    "example": "I like sun."
+    "example": "The sun is warm."
   },
   {
     "id": "en_082",
@@ -653,7 +653,7 @@
     "japanese": "月",
     "target": "moon",
     "pronunciation": "moon",
-    "example": "I like moon."
+    "example": "The moon is bright tonight."
   },
   {
     "id": "en_083",
@@ -661,7 +661,7 @@
     "japanese": "星",
     "target": "star",
     "pronunciation": "star",
-    "example": "I like star."
+    "example": "A star shines in the sky."
   },
   {
     "id": "en_084",
@@ -669,7 +669,7 @@
     "japanese": "雨",
     "target": "rain",
     "pronunciation": "rain",
-    "example": "I like rain."
+    "example": "Rain falls from the sky."
   },
   {
     "id": "en_085",
@@ -677,7 +677,7 @@
     "japanese": "雪",
     "target": "snow",
     "pronunciation": "snow",
-    "example": "I like snow."
+    "example": "Snow covers the ground."
   },
   {
     "id": "en_086",
@@ -685,7 +685,7 @@
     "japanese": "花",
     "target": "flower",
     "pronunciation": "flower",
-    "example": "I like flower."
+    "example": "The flower smells nice."
   },
   {
     "id": "en_087",
@@ -693,7 +693,7 @@
     "japanese": "木",
     "target": "tree",
     "pronunciation": "tree",
-    "example": "I like tree."
+    "example": "The tree is tall."
   },
   {
     "id": "en_088",
@@ -701,7 +701,7 @@
     "japanese": "公園",
     "target": "park",
     "pronunciation": "park",
-    "example": "I like park."
+    "example": "We play in the park."
   },
   {
     "id": "en_089",
@@ -709,7 +709,7 @@
     "japanese": "バス",
     "target": "bus",
     "pronunciation": "bus",
-    "example": "I like bus."
+    "example": "The bus stops here."
   },
   {
     "id": "en_090",
@@ -717,7 +717,7 @@
     "japanese": "電車",
     "target": "train",
     "pronunciation": "train",
-    "example": "I like train."
+    "example": "The train is coming."
   },
   {
     "id": "en_091",
@@ -725,7 +725,7 @@
     "japanese": "歩く",
     "target": "walk",
     "pronunciation": "walk",
-    "example": "I like walk."
+    "example": "I walk to school."
   },
   {
     "id": "en_092",
@@ -733,7 +733,7 @@
     "japanese": "走る",
     "target": "run",
     "pronunciation": "run",
-    "example": "I like run."
+    "example": "I run in the park."
   },
   {
     "id": "en_093",
@@ -741,7 +741,7 @@
     "japanese": "ジャンプする",
     "target": "jump",
     "pronunciation": "jump",
-    "example": "I like jump."
+    "example": "I jump over the line."
   },
   {
     "id": "en_094",
@@ -749,7 +749,7 @@
     "japanese": "歌う",
     "target": "sing",
     "pronunciation": "sing",
-    "example": "I like sing."
+    "example": "We sing a song together."
   },
   {
     "id": "en_095",
@@ -757,7 +757,7 @@
     "japanese": "絵をかく",
     "target": "draw",
     "pronunciation": "draw",
-    "example": "I like draw."
+    "example": "I draw a picture."
   },
   {
     "id": "en_096",
@@ -765,7 +765,7 @@
     "japanese": "読む",
     "target": "read",
     "pronunciation": "read",
-    "example": "I like read."
+    "example": "I read a story."
   },
   {
     "id": "en_097",
@@ -773,7 +773,7 @@
     "japanese": "書く",
     "target": "write",
     "pronunciation": "write",
-    "example": "I like write."
+    "example": "I write my name."
   },
   {
     "id": "en_098",
@@ -781,7 +781,7 @@
     "japanese": "遊ぶ",
     "target": "play",
     "pronunciation": "play",
-    "example": "I like play."
+    "example": "We play after school."
   },
   {
     "id": "en_099",
@@ -789,7 +789,7 @@
     "japanese": "笑う",
     "target": "smile",
     "pronunciation": "smile",
-    "example": "I like smile."
+    "example": "I smile at my friend."
   },
   {
     "id": "en_100",
@@ -797,6 +797,6 @@
     "japanese": "聞く",
     "target": "listen",
     "pronunciation": "listen",
-    "example": "I like listen."
+    "example": "I listen to music."
   }
 ]
