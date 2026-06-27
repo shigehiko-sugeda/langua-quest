@@ -26,7 +26,6 @@ class LessonScreen extends StatelessWidget {
         maxLines: 2,
         overflow: TextOverflow.ellipsis,
         textAlign: TextAlign.center,
-        textWidthBasis: TextWidthBasis.parent,
       ),
     );
   }
@@ -101,10 +100,7 @@ class LessonScreen extends StatelessWidget {
                         children: [
                           Icon(Icons.volume_up),
                           SizedBox(width: 6),
-                          Text(
-                            'きく',
-                            textWidthBasis: TextWidthBasis.parent,
-                          ),
+                          Text('きく'),
                         ],
                       ),
                     ),

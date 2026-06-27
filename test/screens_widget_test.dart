@@ -51,6 +51,23 @@ void main() {
     expect(tester.takeException(), isNull);
   });
 
+  testWidgets('HomeScreen action buttons paint on mobile and desktop widths',
+      (tester) async {
+    for (final size in const [
+      Size(390, 844),
+      Size(1200, 800),
+    ]) {
+      SharedPreferences.setMockInitialValues({});
+
+      await _pumpScreen(tester, const HomeScreen(), logicalSize: size);
+      await tester.pumpAndSettle();
+
+      expect(find.text('今日のレッスンをはじめる'), findsOneWidget);
+      expect(find.text('まちがえた単語をふくしゅう'), findsOneWidget);
+      expect(tester.takeException(), isNull);
+    }
+  });
+
   testWidgets('LessonScreen renders long lesson text', (tester) async {
     await _pumpScreen(
       tester,
@@ -121,9 +138,13 @@ void main() {
   });
 }
 
-Future<void> _pumpScreen(WidgetTester tester, Widget screen) async {
+Future<void> _pumpScreen(
+  WidgetTester tester,
+  Widget screen, {
+  Size logicalSize = const Size(1200, 800),
+}) async {
   tester.view.devicePixelRatio = 2;
-  tester.view.physicalSize = const Size(2400, 1600);
+  tester.view.physicalSize = logicalSize * tester.view.devicePixelRatio;
   addTearDown(tester.view.resetPhysicalSize);
   addTearDown(tester.view.resetDevicePixelRatio);
 

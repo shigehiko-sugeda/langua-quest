@@ -73,17 +73,10 @@ class _QuizScreenState extends State<QuizScreen> {
       padding: const EdgeInsets.only(bottom: 12),
       child: ElevatedButton(
         onPressed: _feedback == null ? () => _answer(option) : null,
-        child: LayoutBuilder(
-          builder: (context, constraints) {
-            return ConstrainedBox(
-              constraints: BoxConstraints(maxWidth: constraints.maxWidth),
-              child: Text(
-                option,
-                textAlign: TextAlign.center,
-                softWrap: true,
-              ),
-            );
-          },
+        child: Text(
+          option,
+          textAlign: TextAlign.center,
+          softWrap: true,
         ),
       ),
     );
