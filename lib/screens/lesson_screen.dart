@@ -46,17 +46,20 @@ class LessonScreen extends StatelessWidget {
             return Padding(
               padding: const EdgeInsets.symmetric(vertical: 16),
               child: ElevatedButton(
-                onPressed: () => Navigator.of(context).pushReplacement(
-                  MaterialPageRoute(
-                    builder: (_) => QuizScreen(
-                      languageCode: languageCode,
-                      lessonWords: lessonWords,
-                      allWords: words,
-                      progress: progress,
-                      isReview: false,
+                onPressed: () async {
+                  await Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (_) => QuizScreen(
+                        languageCode: languageCode,
+                        lessonWords: lessonWords,
+                        allWords: words,
+                        progress: progress,
+                        isReview: false,
+                      ),
                     ),
-                  ),
-                ),
+                  );
+                  if (context.mounted) Navigator.of(context).pop();
+                },
                 child: _buttonLabel('クイズへすすむ'),
               ),
             );

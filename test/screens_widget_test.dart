@@ -15,6 +15,34 @@ void main() {
     SharedPreferences.setMockInitialValues({});
   });
 
+  testWidgets('HomeScreen refreshes progress after lesson quiz returns',
+      (tester) async {
+    await _pumpScreen(tester, const HomeScreen());
+    await tester.pumpAndSettle();
+
+    expect(find.text('0語'), findsNWidgets(2));
+
+    await tester.tap(find.widgetWithText(ElevatedButton, '今日のレッスンをはじめる'));
+    await tester.pumpAndSettle();
+    await tester.scrollUntilVisible(
+      find.text('クイズへすすむ'),
+      400,
+      scrollable: find.byType(Scrollable),
+    );
+    await tester.tap(find.text('クイズへすすむ'));
+    await tester.pumpAndSettle();
+
+    for (var i = 0; i < 20; i++) {
+      await tester.tap(find.byType(ElevatedButton).first);
+      await tester.pump(const Duration(milliseconds: 700));
+      await tester.pumpAndSettle();
+    }
+
+    expect(find.text('ことばクエスト'), findsOneWidget);
+    expect(find.text('10語'), findsWidgets);
+    expect(tester.takeException(), isNull);
+  });
+
   testWidgets('HomeScreen renders with loaded progress', (tester) async {
     await _pumpScreen(tester, const HomeScreen());
     await tester.pumpAndSettle();
@@ -60,7 +88,8 @@ void main() {
     expect(find.text('クイズ'), findsOneWidget);
     expect(find.textContaining('問題 '), findsOneWidget);
     await tester.tap(find.byType(ElevatedButton).first);
-    await tester.pump();
+    await tester.pump(const Duration(milliseconds: 700));
+    await tester.pumpAndSettle();
     expect(tester.takeException(), isNull);
   });
 
@@ -86,7 +115,8 @@ void main() {
     expect(find.text('ふくしゅうクイズ'), findsOneWidget);
     expect(find.textContaining('問題 '), findsOneWidget);
     await tester.tap(find.byType(ElevatedButton).first);
-    await tester.pump();
+    await tester.pump(const Duration(milliseconds: 700));
+    await tester.pumpAndSettle();
     expect(tester.takeException(), isNull);
   });
 }
