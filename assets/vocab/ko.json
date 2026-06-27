@@ -1,0 +1,802 @@
+[
+  {
+    "id": "ko_001",
+    "category": "basic",
+    "japanese": "こんにちは",
+    "target": "안녕",
+    "pronunciation": "アンニョン",
+    "example": "안녕, 내 이름은 유이야."
+  },
+  {
+    "id": "ko_002",
+    "category": "basic",
+    "japanese": "さようなら",
+    "target": "잘 가",
+    "pronunciation": "チャル ガ",
+    "example": "잘 가, 내일 보자."
+  },
+  {
+    "id": "ko_003",
+    "category": "basic",
+    "japanese": "ありがとう",
+    "target": "고마워",
+    "pronunciation": "コマウォ",
+    "example": "도와줘서 고마워."
+  },
+  {
+    "id": "ko_004",
+    "category": "basic",
+    "japanese": "お願いします",
+    "target": "부탁해요",
+    "pronunciation": "プタケヨ",
+    "example": "부탁해요, 문을 열어 주세요."
+  },
+  {
+    "id": "ko_005",
+    "category": "basic",
+    "japanese": "はい",
+    "target": "네",
+    "pronunciation": "ネ",
+    "example": "네, 할 수 있어요."
+  },
+  {
+    "id": "ko_006",
+    "category": "basic",
+    "japanese": "いいえ",
+    "target": "아니요",
+    "pronunciation": "アニヨ",
+    "example": "아니요, 제 것이 아니에요."
+  },
+  {
+    "id": "ko_007",
+    "category": "basic",
+    "japanese": "朝",
+    "target": "아침",
+    "pronunciation": "アチム",
+    "example": "아침이 밝아요."
+  },
+  {
+    "id": "ko_008",
+    "category": "basic",
+    "japanese": "夜",
+    "target": "밤",
+    "pronunciation": "パム",
+    "example": "밤은 조용해요."
+  },
+  {
+    "id": "ko_009",
+    "category": "basic",
+    "japanese": "友だち",
+    "target": "친구",
+    "pronunciation": "チング",
+    "example": "제 친구는 친절해요."
+  },
+  {
+    "id": "ko_010",
+    "category": "basic",
+    "japanese": "うれしい",
+    "target": "기뻐",
+    "pronunciation": "キッポ",
+    "example": "오늘은 기뻐요."
+  },
+  {
+    "id": "ko_011",
+    "category": "animals",
+    "japanese": "犬",
+    "target": "개",
+    "pronunciation": "ケ",
+    "example": "개가 빨리 달려요."
+  },
+  {
+    "id": "ko_012",
+    "category": "animals",
+    "japanese": "猫",
+    "target": "고양이",
+    "pronunciation": "コヤンイ",
+    "example": "고양이가 의자 위에서 자요."
+  },
+  {
+    "id": "ko_013",
+    "category": "animals",
+    "japanese": "鳥",
+    "target": "새",
+    "pronunciation": "セ",
+    "example": "새가 나무에 있어요."
+  },
+  {
+    "id": "ko_014",
+    "category": "animals",
+    "japanese": "魚",
+    "target": "물고기",
+    "pronunciation": "ムルゴギ",
+    "example": "물고기가 물속에서 헤엄쳐요."
+  },
+  {
+    "id": "ko_015",
+    "category": "animals",
+    "japanese": "うさぎ",
+    "target": "토끼",
+    "pronunciation": "トッキ",
+    "example": "토끼가 당근을 먹어요."
+  },
+  {
+    "id": "ko_016",
+    "category": "animals",
+    "japanese": "馬",
+    "target": "말",
+    "pronunciation": "マル",
+    "example": "말이 들판을 걸어요."
+  },
+  {
+    "id": "ko_017",
+    "category": "animals",
+    "japanese": "牛",
+    "target": "소",
+    "pronunciation": "ソ",
+    "example": "소는 우유를 줘요."
+  },
+  {
+    "id": "ko_018",
+    "category": "animals",
+    "japanese": "羊",
+    "target": "양",
+    "pronunciation": "ヤン",
+    "example": "양은 하얘요."
+  },
+  {
+    "id": "ko_019",
+    "category": "animals",
+    "japanese": "あひる",
+    "target": "오리",
+    "pronunciation": "オリ",
+    "example": "오리가 연못에 있어요."
+  },
+  {
+    "id": "ko_020",
+    "category": "animals",
+    "japanese": "くま",
+    "target": "곰",
+    "pronunciation": "コム",
+    "example": "곰은 커요."
+  },
+  {
+    "id": "ko_021",
+    "category": "food",
+    "japanese": "りんご",
+    "target": "사과",
+    "pronunciation": "サグァ",
+    "example": "이 사과는 달아요."
+  },
+  {
+    "id": "ko_022",
+    "category": "food",
+    "japanese": "バナナ",
+    "target": "바나나",
+    "pronunciation": "バナナ",
+    "example": "아침에 바나나를 먹어요."
+  },
+  {
+    "id": "ko_023",
+    "category": "food",
+    "japanese": "ごはん",
+    "target": "밥",
+    "pronunciation": "パプ",
+    "example": "밥이 그릇에 있어요."
+  },
+  {
+    "id": "ko_024",
+    "category": "food",
+    "japanese": "パン",
+    "target": "빵",
+    "pronunciation": "パン",
+    "example": "빵이 따뜻해요."
+  },
+  {
+    "id": "ko_025",
+    "category": "food",
+    "japanese": "牛乳",
+    "target": "우유",
+    "pronunciation": "ウユ",
+    "example": "매일 아침 우유를 마셔요."
+  },
+  {
+    "id": "ko_026",
+    "category": "food",
+    "japanese": "水",
+    "target": "물",
+    "pronunciation": "ムル",
+    "example": "물 좀 주세요."
+  },
+  {
+    "id": "ko_027",
+    "category": "food",
+    "japanese": "たまご",
+    "target": "달걀",
+    "pronunciation": "タルギャル",
+    "example": "상자 안에 달걀이 있어요."
+  },
+  {
+    "id": "ko_028",
+    "category": "food",
+    "japanese": "チーズ",
+    "target": "치즈",
+    "pronunciation": "チジュ",
+    "example": "피자 위에 치즈가 있어요."
+  },
+  {
+    "id": "ko_029",
+    "category": "food",
+    "japanese": "にんじん",
+    "target": "당근",
+    "pronunciation": "タングン",
+    "example": "당근은 주황색이에요."
+  },
+  {
+    "id": "ko_030",
+    "category": "food",
+    "japanese": "スープ",
+    "target": "수프",
+    "pronunciation": "スプ",
+    "example": "수프가 뜨거워요."
+  },
+  {
+    "id": "ko_031",
+    "category": "school",
+    "japanese": "学校",
+    "target": "학교",
+    "pronunciation": "ハッキョ",
+    "example": "버스를 타고 학교에 가요."
+  },
+  {
+    "id": "ko_032",
+    "category": "school",
+    "japanese": "先生",
+    "target": "선생님",
+    "pronunciation": "ソンセンニム",
+    "example": "선생님이 칠판에 써요."
+  },
+  {
+    "id": "ko_033",
+    "category": "school",
+    "japanese": "生徒",
+    "target": "학생",
+    "pronunciation": "ハクセン",
+    "example": "학생이 책을 읽어요."
+  },
+  {
+    "id": "ko_034",
+    "category": "school",
+    "japanese": "本",
+    "target": "책",
+    "pronunciation": "チェク",
+    "example": "이 책은 재미있어요."
+  },
+  {
+    "id": "ko_035",
+    "category": "school",
+    "japanese": "えんぴつ",
+    "target": "연필",
+    "pronunciation": "ヨンピル",
+    "example": "연필로 글씨를 써요."
+  },
+  {
+    "id": "ko_036",
+    "category": "school",
+    "japanese": "つくえ",
+    "target": "책상",
+    "pronunciation": "チェクサン",
+    "example": "제 책상은 깨끗해요."
+  },
+  {
+    "id": "ko_037",
+    "category": "school",
+    "japanese": "いす",
+    "target": "의자",
+    "pronunciation": "ウィジャ",
+    "example": "이 의자에 앉아 주세요."
+  },
+  {
+    "id": "ko_038",
+    "category": "school",
+    "japanese": "かばん",
+    "target": "가방",
+    "pronunciation": "カバン",
+    "example": "가방이 책상 아래에 있어요."
+  },
+  {
+    "id": "ko_039",
+    "category": "school",
+    "japanese": "ノート",
+    "target": "공책",
+    "pronunciation": "コンチェク",
+    "example": "공책을 펼쳐요."
+  },
+  {
+    "id": "ko_040",
+    "category": "school",
+    "japanese": "図書室",
+    "target": "도서관",
+    "pronunciation": "トソグァン",
+    "example": "도서관에서 책을 읽어요."
+  },
+  {
+    "id": "ko_041",
+    "category": "family",
+    "japanese": "お母さん",
+    "target": "엄마",
+    "pronunciation": "オンマ",
+    "example": "엄마가 저녁을 만들어요."
+  },
+  {
+    "id": "ko_042",
+    "category": "family",
+    "japanese": "お父さん",
+    "target": "아빠",
+    "pronunciation": "アッパ",
+    "example": "아빠가 차를 운전해요."
+  },
+  {
+    "id": "ko_043",
+    "category": "family",
+    "japanese": "妹",
+    "target": "여동생",
+    "pronunciation": "ヨドンセン",
+    "example": "제 여동생은 음악을 좋아해요."
+  },
+  {
+    "id": "ko_044",
+    "category": "family",
+    "japanese": "弟",
+    "target": "남동생",
+    "pronunciation": "ナムドンセン",
+    "example": "제 남동생은 축구를 해요."
+  },
+  {
+    "id": "ko_045",
+    "category": "family",
+    "japanese": "おばあさん",
+    "target": "할머니",
+    "pronunciation": "ハルモニ",
+    "example": "할머니가 이야기를 해 주세요."
+  },
+  {
+    "id": "ko_046",
+    "category": "family",
+    "japanese": "おじいさん",
+    "target": "할아버지",
+    "pronunciation": "ハラボジ",
+    "example": "할아버지가 산책하세요."
+  },
+  {
+    "id": "ko_047",
+    "category": "family",
+    "japanese": "赤ちゃん",
+    "target": "아기",
+    "pronunciation": "アギ",
+    "example": "아기가 자고 있어요."
+  },
+  {
+    "id": "ko_048",
+    "category": "family",
+    "japanese": "家族",
+    "target": "가족",
+    "pronunciation": "カジョク",
+    "example": "우리 가족은 함께 저녁을 먹어요."
+  },
+  {
+    "id": "ko_049",
+    "category": "family",
+    "japanese": "おば",
+    "target": "이모",
+    "pronunciation": "イモ",
+    "example": "이모는 가까이에 살아요."
+  },
+  {
+    "id": "ko_050",
+    "category": "family",
+    "japanese": "おじ",
+    "target": "삼촌",
+    "pronunciation": "サムチョン",
+    "example": "삼촌은 기타를 쳐요."
+  },
+  {
+    "id": "ko_051",
+    "category": "colors",
+    "japanese": "赤",
+    "target": "빨강",
+    "pronunciation": "パルガン",
+    "example": "사과는 빨간색이에요."
+  },
+  {
+    "id": "ko_052",
+    "category": "colors",
+    "japanese": "青",
+    "target": "파랑",
+    "pronunciation": "パラン",
+    "example": "하늘은 파란색이에요."
+  },
+  {
+    "id": "ko_053",
+    "category": "colors",
+    "japanese": "黄色",
+    "target": "노랑",
+    "pronunciation": "ノラン",
+    "example": "바나나는 노란색이에요."
+  },
+  {
+    "id": "ko_054",
+    "category": "colors",
+    "japanese": "緑",
+    "target": "초록",
+    "pronunciation": "チョロク",
+    "example": "잎은 초록색이에요."
+  },
+  {
+    "id": "ko_055",
+    "category": "colors",
+    "japanese": "白",
+    "target": "하양",
+    "pronunciation": "ハヤン",
+    "example": "눈은 하얘요."
+  },
+  {
+    "id": "ko_056",
+    "category": "colors",
+    "japanese": "黒",
+    "target": "검정",
+    "pronunciation": "コムジョン",
+    "example": "제 신발은 검은색이에요."
+  },
+  {
+    "id": "ko_057",
+    "category": "colors",
+    "japanese": "ピンク",
+    "target": "분홍",
+    "pronunciation": "プノン",
+    "example": "꽃은 분홍색이에요."
+  },
+  {
+    "id": "ko_058",
+    "category": "colors",
+    "japanese": "オレンジ色",
+    "target": "주황",
+    "pronunciation": "チュファン",
+    "example": "주황색 공은 제 것이에요."
+  },
+  {
+    "id": "ko_059",
+    "category": "colors",
+    "japanese": "紫",
+    "target": "보라",
+    "pronunciation": "ポラ",
+    "example": "포도는 보라색이에요."
+  },
+  {
+    "id": "ko_060",
+    "category": "colors",
+    "japanese": "茶色",
+    "target": "갈색",
+    "pronunciation": "カルセク",
+    "example": "탁자는 갈색이에요."
+  },
+  {
+    "id": "ko_061",
+    "category": "numbers",
+    "japanese": "一",
+    "target": "하나",
+    "pronunciation": "ハナ",
+    "example": "연필이 하나 있어요."
+  },
+  {
+    "id": "ko_062",
+    "category": "numbers",
+    "japanese": "二",
+    "target": "둘",
+    "pronunciation": "トゥル",
+    "example": "고양이가 둘 있어요."
+  },
+  {
+    "id": "ko_063",
+    "category": "numbers",
+    "japanese": "三",
+    "target": "셋",
+    "pronunciation": "セッ",
+    "example": "별 세 개가 보여요."
+  },
+  {
+    "id": "ko_064",
+    "category": "numbers",
+    "japanese": "四",
+    "target": "넷",
+    "pronunciation": "ネッ",
+    "example": "새 네 마리가 날아요."
+  },
+  {
+    "id": "ko_065",
+    "category": "numbers",
+    "japanese": "五",
+    "target": "다섯",
+    "pronunciation": "タソッ",
+    "example": "한 손에는 손가락이 다섯 개 있어요."
+  },
+  {
+    "id": "ko_066",
+    "category": "numbers",
+    "japanese": "六",
+    "target": "여섯",
+    "pronunciation": "ヨソッ",
+    "example": "아이 여섯 명이 놀고 있어요."
+  },
+  {
+    "id": "ko_067",
+    "category": "numbers",
+    "japanese": "七",
+    "target": "일곱",
+    "pronunciation": "イルゴプ",
+    "example": "일주일은 일곱 날이에요."
+  },
+  {
+    "id": "ko_068",
+    "category": "numbers",
+    "japanese": "八",
+    "target": "여덟",
+    "pronunciation": "ヨドル",
+    "example": "바구니에 사과 여덟 개가 있어요."
+  },
+  {
+    "id": "ko_069",
+    "category": "numbers",
+    "japanese": "九",
+    "target": "아홉",
+    "pronunciation": "アホプ",
+    "example": "방에 학생 아홉 명이 있어요."
+  },
+  {
+    "id": "ko_070",
+    "category": "numbers",
+    "japanese": "十",
+    "target": "열",
+    "pronunciation": "ヨル",
+    "example": "열까지 셀 수 있어요."
+  },
+  {
+    "id": "ko_071",
+    "category": "daily life",
+    "japanese": "家",
+    "target": "집",
+    "pronunciation": "チプ",
+    "example": "지금 집에 가요."
+  },
+  {
+    "id": "ko_072",
+    "category": "daily life",
+    "japanese": "部屋",
+    "target": "방",
+    "pronunciation": "パン",
+    "example": "제 방은 작아요."
+  },
+  {
+    "id": "ko_073",
+    "category": "daily life",
+    "japanese": "ドア",
+    "target": "문",
+    "pronunciation": "ムン",
+    "example": "문을 닫아 주세요."
+  },
+  {
+    "id": "ko_074",
+    "category": "daily life",
+    "japanese": "窓",
+    "target": "창문",
+    "pronunciation": "チャンムン",
+    "example": "창문이 열려 있어요."
+  },
+  {
+    "id": "ko_075",
+    "category": "daily life",
+    "japanese": "テーブル",
+    "target": "탁자",
+    "pronunciation": "タクチャ",
+    "example": "컵이 탁자 위에 있어요."
+  },
+  {
+    "id": "ko_076",
+    "category": "daily life",
+    "japanese": "ベッド",
+    "target": "침대",
+    "pronunciation": "チムデ",
+    "example": "침대에서 자요."
+  },
+  {
+    "id": "ko_077",
+    "category": "daily life",
+    "japanese": "時計",
+    "target": "시계",
+    "pronunciation": "シゲ",
+    "example": "시계가 여덟 시를 가리켜요."
+  },
+  {
+    "id": "ko_078",
+    "category": "daily life",
+    "japanese": "くつ",
+    "target": "신발",
+    "pronunciation": "シンバル",
+    "example": "신발을 신어요."
+  },
+  {
+    "id": "ko_079",
+    "category": "daily life",
+    "japanese": "ぼうし",
+    "target": "모자",
+    "pronunciation": "モジャ",
+    "example": "이 모자는 너무 커요."
+  },
+  {
+    "id": "ko_080",
+    "category": "daily life",
+    "japanese": "かさ",
+    "target": "우산",
+    "pronunciation": "ウサン",
+    "example": "비가 올 때 우산을 써요."
+  },
+  {
+    "id": "ko_081",
+    "category": "daily life",
+    "japanese": "太陽",
+    "target": "해",
+    "pronunciation": "ヘ",
+    "example": "해가 따뜻해요."
+  },
+  {
+    "id": "ko_082",
+    "category": "daily life",
+    "japanese": "月",
+    "target": "달",
+    "pronunciation": "タル",
+    "example": "오늘 밤 달이 밝아요."
+  },
+  {
+    "id": "ko_083",
+    "category": "daily life",
+    "japanese": "星",
+    "target": "별",
+    "pronunciation": "ピョル",
+    "example": "별이 하늘에서 빛나요."
+  },
+  {
+    "id": "ko_084",
+    "category": "daily life",
+    "japanese": "雨",
+    "target": "비",
+    "pronunciation": "ピ",
+    "example": "비가 하늘에서 내려요."
+  },
+  {
+    "id": "ko_085",
+    "category": "daily life",
+    "japanese": "雪",
+    "target": "눈",
+    "pronunciation": "ヌン",
+    "example": "눈이 땅을 덮어요."
+  },
+  {
+    "id": "ko_086",
+    "category": "daily life",
+    "japanese": "花",
+    "target": "꽃",
+    "pronunciation": "コッ",
+    "example": "꽃 향기가 좋아요."
+  },
+  {
+    "id": "ko_087",
+    "category": "daily life",
+    "japanese": "木",
+    "target": "나무",
+    "pronunciation": "ナム",
+    "example": "나무가 키가 커요."
+  },
+  {
+    "id": "ko_088",
+    "category": "daily life",
+    "japanese": "公園",
+    "target": "공원",
+    "pronunciation": "コンウォン",
+    "example": "공원에서 놀아요."
+  },
+  {
+    "id": "ko_089",
+    "category": "daily life",
+    "japanese": "バス",
+    "target": "버스",
+    "pronunciation": "ボス",
+    "example": "버스가 여기서 멈춰요."
+  },
+  {
+    "id": "ko_090",
+    "category": "daily life",
+    "japanese": "電車",
+    "target": "전철",
+    "pronunciation": "チョンチョル",
+    "example": "전철이 오고 있어요."
+  },
+  {
+    "id": "ko_091",
+    "category": "daily life",
+    "japanese": "歩く",
+    "target": "걷다",
+    "pronunciation": "コッタ",
+    "example": "학교까지 걸어가요."
+  },
+  {
+    "id": "ko_092",
+    "category": "daily life",
+    "japanese": "走る",
+    "target": "달리다",
+    "pronunciation": "タルリダ",
+    "example": "공원에서 달려요."
+  },
+  {
+    "id": "ko_093",
+    "category": "daily life",
+    "japanese": "ジャンプする",
+    "target": "점프하다",
+    "pronunciation": "チョムプハダ",
+    "example": "선을 넘어 점프해요."
+  },
+  {
+    "id": "ko_094",
+    "category": "daily life",
+    "japanese": "歌う",
+    "target": "노래하다",
+    "pronunciation": "ノレハダ",
+    "example": "함께 노래를 불러요."
+  },
+  {
+    "id": "ko_095",
+    "category": "daily life",
+    "japanese": "絵をかく",
+    "target": "그리다",
+    "pronunciation": "クリダ",
+    "example": "그림을 그려요."
+  },
+  {
+    "id": "ko_096",
+    "category": "daily life",
+    "japanese": "読む",
+    "target": "읽다",
+    "pronunciation": "イルタ",
+    "example": "이야기를 읽어요."
+  },
+  {
+    "id": "ko_097",
+    "category": "daily life",
+    "japanese": "書く",
+    "target": "쓰다",
+    "pronunciation": "スダ",
+    "example": "제 이름을 써요."
+  },
+  {
+    "id": "ko_098",
+    "category": "daily life",
+    "japanese": "遊ぶ",
+    "target": "놀다",
+    "pronunciation": "ノルダ",
+    "example": "방과 후에 놀아요."
+  },
+  {
+    "id": "ko_099",
+    "category": "daily life",
+    "japanese": "笑う",
+    "target": "웃다",
+    "pronunciation": "ウッタ",
+    "example": "친구에게 웃어요."
+  },
+  {
+    "id": "ko_100",
+    "category": "daily life",
+    "japanese": "聞く",
+    "target": "듣다",
+    "pronunciation": "トゥッタ",
+    "example": "음악을 들어요."
+  }
+]
